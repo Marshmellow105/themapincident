@@ -1048,7 +1048,7 @@
 	},
 /obj/structure/fluff/tv{
 	icon_state = "tv_off";
-	pixel_y = 38;
+	pixel_y = 43;
 	pixel_x = -6
 	},
 /turf/open/floor/city/plating,
@@ -2629,10 +2629,6 @@
 /obj/machinery/coffeemaker{
 	pixel_y = 12
 	},
-/obj/item/storage/box/coffeepack{
-	pixel_x = -13;
-	pixel_y = 2
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/jazzclub)
@@ -3041,13 +3037,9 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "aKR" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
-	},
-/obj/effect/spawner/random/trash/grime,
-/turf/open/floor/plating/asphalt,
-/area/vtm/interior/millennium_tower)
+/obj/machinery/light/directional/west,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/millennium_tower/f2)
 "aKW" = (
 /obj/structure/table,
 /obj/effect/turf_decal/siding/grey{
@@ -19282,7 +19274,7 @@
 "ePL" = (
 /obj/structure/table/wood,
 /obj/structure/bedsheetbin/basket{
-	pixel_y = 9
+	pixel_y = 0
 	},
 /turf/open/floor/city/factory,
 /area/vtm/interior/millennium_tower/f3)
@@ -36656,9 +36648,9 @@
 /obj/machinery/coffeemaker{
 	pixel_y = 12
 	},
-/obj/item/storage/box/coffeepack{
-	pixel_x = 7;
-	pixel_y = -1
+/obj/item/coffee_cartridge{
+	pixel_x = 6;
+	pixel_y = -4
 	},
 /turf/open/floor/city/plating,
 /area/vtm/interior/millennium_tower/f2)
@@ -38399,6 +38391,9 @@
 /obj/item/reagent_containers/cup/glass/mug{
 	pixel_x = 2
 	},
+/obj/item/coffee_cartridge{
+	pixel_x = 12
+	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/jazzclub)
 "jzG" = (
@@ -39668,7 +39663,7 @@
 "jRl" = (
 /obj/structure/table/countertop/red,
 /obj/machinery/processor{
-	pixel_y = 12
+	pixel_y = 0
 	},
 /turf/open/misc/asteroid/snow/coldroom,
 /area/vtm/interior/jazzclub)
@@ -42331,7 +42326,7 @@
 "kxT" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/machinery/fax/camarilla{
-	pixel_y = 7
+	pixel_y = 0
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
@@ -43540,7 +43535,7 @@
 /area/vtm/interior/millennium_tower/f3)
 "kNQ" = (
 /obj/structure/platform/lowwall/rich/window,
-/obj/structure/curtain/cloth/fancy/mechanical/start_closed{
+/obj/structure/curtain/bounty/start_closed{
 	pixel_y = 15
 	},
 /turf/open/floor/city/plating_mono,
@@ -45765,13 +45760,13 @@
 /turf/open/misc/grass,
 /area/vtm/interior/tzimisce_manor)
 "lpR" = (
-/obj/effect/turf_decal/asphaltline/alt{
-	dir = 8;
-	pixel_y = 15
+/obj/item/flashlight/flare/candle/infinite{
+	anchored = 1;
+	pixel_y = 4;
+	pixel_x = -10
 	},
-/obj/effect/spawner/random/trash/garbage,
-/turf/open/floor/plating/asphalt,
-/area/vtm/interior/millennium_tower)
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/millennium_tower/f3)
 "lpS" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -58654,6 +58649,8 @@
 "orO" = (
 /obj/structure/vampdoor/woodglass,
 /obj/effect/turf_decal/siding/grey,
+/obj/effect/mapping_helpers/door/access/camarilla,
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /turf/open/floor/city/plating,
 /area/vtm/outside/financialdistrict)
 "orU" = (
@@ -70272,15 +70269,11 @@
 	pixel_y = 4;
 	pixel_x = -6
 	},
+/obj/item/katana/vamp,
 /obj/item/katana/vamp{
-	pixel_x = 7
-	},
-/obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = -4
 	},
 /obj/item/katana/vamp{
-	pixel_x = 7;
 	pixel_y = -8
 	},
 /obj/machinery/light/directional/north,
@@ -72534,6 +72527,8 @@
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
 	},
+/obj/effect/mapping_helpers/door/access/camarilla,
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
 /turf/open/floor/city/plating,
 /area/vtm/outside/financialdistrict)
 "rNZ" = (
@@ -74146,9 +74141,11 @@
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/jazzclub)
 "sll" = (
-/obj/effect/turf_decal/bordur,
-/obj/effect/spawner/random/trash/grime,
-/turf/open/floor/plating/sidewalk,
+/obj/structure/transport/linear/public,
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "MilleniumParking"
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower)
 "slo" = (
 /obj/effect/turf_decal/siding/wideplating{
@@ -86596,12 +86593,12 @@
 /obj/structure/table,
 /obj/structure/fluff/tv{
 	icon_state = "tv_off";
-	pixel_y = 38;
+	pixel_y = 43;
 	pixel_x = 6
 	},
 /obj/structure/fluff/tv{
 	icon_state = "tv_off";
-	pixel_y = 38;
+	pixel_y = 43;
 	pixel_x = -16
 	},
 /obj/item/ammo_box/darkpack/c9mm{
@@ -122969,7 +122966,7 @@ xfw
 kSY
 ufP
 fTS
-fTS
+sll
 fTS
 kSY
 xUr
@@ -123788,7 +123785,7 @@ rXt
 rXt
 rXt
 rXt
-lpR
+hok
 rXt
 iSJ
 gHM
@@ -124599,7 +124596,7 @@ xfw
 xfw
 xfw
 kSY
-sll
+eao
 rXt
 rXt
 rXt
@@ -125418,11 +125415,11 @@ kSY
 uUS
 rXt
 rXt
-aKR
+hok
 rXt
 hok
 rXt
-aKR
+hok
 rXt
 kSY
 uvs
@@ -205609,7 +205606,7 @@ cep
 cep
 cep
 cep
-cep
+aKR
 cep
 cep
 nwK
@@ -247639,7 +247636,7 @@ lOG
 iQW
 eqy
 ibE
-ibE
+lpR
 ibE
 rpz
 wbS
