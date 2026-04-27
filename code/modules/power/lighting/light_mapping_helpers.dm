@@ -83,7 +83,12 @@
 
 /obj/machinery/light/small/dim
 	brightness = 2.4
-
+// TFN EDIT CHANGE START - (SFPD TO FBI)
+/obj/machinery/light/small/blue
+	bulb_colour = "#0352fc"
+	no_low_power = TRUE
+	nightshift_allowed = FALSE
+// TFN EDIT CHANGE END - (SFPD TO FBI)
 /obj/machinery/light/small/red
 	bulb_colour = COLOR_VIVID_RED
 	no_low_power = TRUE
@@ -227,6 +232,7 @@ LIGHTING_DIRECTIONAL_HELPERS(/obj/machinery/light/prince)
 
 LIGHTING_DIRECTIONAL_HELPERS(/obj/machinery/light/prince/broken)
 LIGHTING_DIRECTIONAL_HELPERS(/obj/machinery/light/prince/ghost)
+LIGHTING_DIRECTIONAL_HELPERS(/obj/machinery/light/small/blue) // TFN EDIT CHANGE - (SFPD TO FBI)
 
 #undef LIGHTING_DIRECTIONAL_HELPERS
 // DARKPACK EDIT CHANGE END
