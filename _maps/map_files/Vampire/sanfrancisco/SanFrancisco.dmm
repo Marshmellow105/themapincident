@@ -26340,14 +26340,6 @@
 /obj/structure/chair/stool/bar/darkpack/blue,
 /turf/open/floor/city/plating,
 /area/vtm/interior/strip)
-"gIP" = (
-/obj/item/paper/fluff{
-	name = "cells"
-	},
-/turf/open/floor/plating/concrete{
-	color = "#bfbfbf"
-	},
-/area/vtm/interior/police)
 "gIR" = (
 /obj/effect/decal/fakelattice{
 	density = 0
@@ -113896,7 +113888,7 @@ uvs
 uvs
 xhl
 rwy
-gIP
+mbP
 qwQ
 dCy
 fII
