@@ -3580,9 +3580,6 @@
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/baywalk)
-"mW" = (
-/turf/open/space/basic,
-/area/space)
 "mX" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -11908,6 +11905,10 @@
 /obj/structure/railing/wooden_fence,
 /turf/open/openspace,
 /area/space)
+"QT" = (
+/obj/effect/spawner/random/structure/billboard/darkpack,
+/turf/open/misc/dirt,
+/area/vtm/outside/pacificheights/industrial)
 "QV" = (
 /obj/effect/decal/pallet,
 /turf/open/floor/plating/canal,
@@ -13406,6 +13407,16 @@
 "Wt" = (
 /turf/open/misc/dirt,
 /area/vtm/outside/pacificheights/industrial)
+"Wu" = (
+/obj/effect/decal/wallpaper/stone/low{
+	pixel_y = 24
+	},
+/obj/effect/decal/shadow,
+/obj/structure/billboard/darkpack/endron,
+/turf/open/floor/plating/sidewalk/poor{
+	color = "#bfbfbf"
+	},
+/area/space)
 "Wv" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -22220,12 +22231,12 @@ NM
 NM
 NM
 NM
-mW
-mW
-mW
-mW
-mW
-mW
+NM
+NM
+NM
+NM
+NM
+NM
 NM
 NM
 NM
@@ -22374,12 +22385,12 @@ NM
 NM
 NM
 NM
-mW
-mW
-mW
-mW
-mW
-mW
+NM
+NM
+NM
+NM
+NM
+NM
 NM
 NM
 NM
@@ -22528,12 +22539,12 @@ NM
 NM
 NM
 NM
-mW
-mW
-mW
-mW
-mW
-mW
+NM
+NM
+NM
+NM
+NM
+NM
 NM
 NM
 NM
@@ -22682,12 +22693,12 @@ NM
 NM
 NM
 NM
-mW
-mW
-mW
-mW
-mW
-mW
+NM
+NM
+NM
+NM
+NM
+NM
 NM
 NM
 NM
@@ -22836,12 +22847,12 @@ NM
 NM
 NM
 NM
-mW
-mW
-mW
-mW
-mW
-mW
+NM
+NM
+NM
+NM
+NM
+NM
 NM
 NM
 NM
@@ -41977,7 +41988,7 @@ fa
 gu
 rC
 Wt
-Wt
+QT
 ur
 aZ
 or
@@ -65965,7 +65976,7 @@ rp
 rp
 rp
 GW
-Dj
+Wu
 cf
 cf
 cf
