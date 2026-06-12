@@ -794,6 +794,7 @@
 /area/space)
 "cP" = (
 /obj/machinery/icecream_vat,
+/obj/machinery/light/directional/north,
 /turf/open/floor/city/gummaguts,
 /area/vtm/outside/baywalk)
 "cR" = (
@@ -3356,6 +3357,7 @@
 	},
 /obj/structure/platform/lowwall/city,
 /obj/structure/table/wood,
+/obj/effect/decal/wallpaper/red/low,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
 "mi" = (
@@ -3572,6 +3574,10 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plating/rough,
+/area/vtm/outside/culture)
+"mT" = (
+/obj/effect/decal/wallpaper/red,
+/turf/closed/wall/vampwall/city,
 /area/vtm/outside/culture)
 "mU" = (
 /obj/effect/decal/wallpaper/stone/low{
@@ -6741,6 +6747,7 @@
 "yg" = (
 /obj/structure/platform/lowwall/city,
 /obj/structure/table/wood,
+/obj/effect/decal/wallpaper/red/low,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
 "yh" = (
@@ -10757,10 +10764,6 @@
 	},
 /turf/open/floor/plating/canalplating,
 /area/space)
-"MI" = (
-/obj/machinery/light/directional/south,
-/turf/open/floor/city/gummaguts,
-/area/vtm/outside/baywalk)
 "MJ" = (
 /obj/structure/chair/wood/darkpack/red,
 /turf/open/floor/wood/smooth/old,
@@ -39898,7 +39901,7 @@ XO
 eE
 yr
 IO
-WN
+mT
 Et
 eO
 WZ
@@ -40052,7 +40055,7 @@ XO
 eE
 yr
 IO
-WN
+mT
 do
 eO
 Do
@@ -40206,7 +40209,7 @@ XO
 eE
 yr
 IO
-WN
+mT
 EO
 eO
 Do
@@ -40362,9 +40365,9 @@ yr
 lU
 WN
 WN
-WN
+mT
 Ii
-WN
+mT
 Fn
 Do
 Do
@@ -40670,7 +40673,7 @@ yr
 tI
 mX
 sL
-WN
+mT
 Vg
 ua
 Do
@@ -51037,7 +51040,7 @@ cw
 Jt
 cw
 Jt
-Pb
+ku
 Ne
 CA
 CA
@@ -51190,8 +51193,8 @@ cP
 Jt
 cw
 Jt
-MI
-Pb
+cw
+ku
 Ne
 CA
 CA
@@ -51345,7 +51348,7 @@ cw
 Jt
 cw
 Jt
-Pb
+ku
 Ne
 CA
 CA
