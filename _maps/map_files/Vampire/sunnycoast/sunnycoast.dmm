@@ -9,11 +9,8 @@
 	},
 /area/space)
 "ac" = (
-/obj/structure/flora/bush/reed/style_random{
-	pixel_x = -2;
-	pixel_y = -4
-	},
 /obj/effect/realistic_fog/dense/strong,
+/obj/structure/flora/bush/reed/style_random,
 /turf/open/water,
 /area/space)
 "ad" = (
@@ -48,6 +45,13 @@
 	dir = 1
 	},
 /turf/open/floor/city/plating,
+/area/space)
+"ai" = (
+/obj/structure/flora/rock/stalagmite,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 10
+	},
+/turf/open/floor/plating/stone,
 /area/space)
 "aj" = (
 /obj/effect/turf_decal/siding/wood/dark/corner,
@@ -266,6 +270,16 @@
 	},
 /turf/open/misc/dirt/rails,
 /area/vtm/outside/pacificheights/industrial)
+"ba" = (
+/obj/structure/table/wood,
+/obj/item/gun/ballistic/shotgun/vampire{
+	pixel_y = 10
+	},
+/obj/item/gun/ballistic/shotgun/vampire/doublebarrel,
+/obj/item/ammo_box/darkpack/c12g,
+/obj/item/ammo_box/darkpack/c12g/buck,
+/turf/open/floor/plating/rough/cave,
+/area/space)
 "bb" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/smooth/old,
@@ -598,6 +612,9 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/effect/mapping_helpers/door/lock,
 /obj/structure/vampdoor/prison,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
 /turf/open/misc/dirt,
 /area/space)
 "cj" = (
@@ -623,6 +640,7 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 6
 	},
+/obj/structure/flora/bush/reed/style_random,
 /turf/open/water,
 /area/space)
 "cn" = (
@@ -931,6 +949,13 @@
 	},
 /turf/open/floor/city/gummaguts,
 /area/space)
+"dm" = (
+/obj/structure/bed/dogbed,
+/mob/living/basic/pet/dog/wolf/ginger,
+/obj/effect/mapping_helpers/mob_buckler,
+/obj/effect/decal/pallet,
+/turf/open/floor/plating/rough/cave,
+/area/space)
 "dn" = (
 /obj/item/target{
 	pixel_y = 26
@@ -989,6 +1014,12 @@
 /obj/structure/roofstuff/alt2,
 /obj/effect/turf_decal/bordur/end,
 /turf/open/floor/plating/sidewalk/poor,
+/area/space)
+"du" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/turf/open/misc/dirt,
 /area/space)
 "dw" = (
 /obj/structure/platform/lowwall/brick,
@@ -1049,6 +1080,10 @@
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 1
 	},
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
 /turf/open/misc/grass/nosmooth,
 /area/space)
 "dE" = (
@@ -1072,6 +1107,15 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/outside/trainyard)
+"dG" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 1
+	},
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "dH" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet/green,
@@ -1206,6 +1250,17 @@
 "ec" = (
 /obj/effect/spawner/random/bedsheet,
 /turf/open/floor/plating/concrete,
+/area/space)
+"ed" = (
+/obj/structure/glowshroom/single,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/turf/open/floor/plating/stone,
 /area/space)
 "eg" = (
 /obj/effect/turf_decal/bordur,
@@ -1662,11 +1717,28 @@
 /obj/effect/decal/wallpaper/red,
 /turf/closed/wall/vampwall/rich/old,
 /area/space)
+"fF" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 4
+	},
+/obj/structure/bonfire/prelit/alt2,
+/turf/open/misc/dirt,
+/area/space)
 "fH" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 1
 	},
 /turf/open/misc/grass/nosmooth,
+/area/space)
+"fI" = (
+/obj/structure/table/wood,
+/obj/item/gun/ballistic/revolver/darkpack/magnum{
+	pixel_y = 6
+	},
+/obj/item/gun/ballistic/revolver/darkpack/magnum,
+/obj/item/ammo_box/darkpack/c44,
+/obj/item/ammo_box/darkpack/c44,
+/turf/open/floor/plating/rough/cave,
 /area/space)
 "fK" = (
 /obj/effect/turf_decal/bordur/corner,
@@ -1743,6 +1815,13 @@
 	},
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/outside/culture)
+"fZ" = (
+/obj/structure/table/countertop/green,
+/obj/machinery/fax/glasswalker{
+	pixel_y = 4
+	},
+/turf/open/floor/city/bacotell,
+/area/space)
 "ga" = (
 /obj/structure/table/countertop/green,
 /obj/effect/turf_decal/siding/dark_green,
@@ -2290,6 +2369,7 @@
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 4
 	},
+/obj/structure/flora/bush/reed/style_random,
 /turf/open/water,
 /area/space)
 "hZ" = (
@@ -2533,6 +2613,13 @@
 /obj/structure/hedge,
 /turf/open/floor/plating/granite/black,
 /area/space)
+"iU" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 9
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/water,
+/area/space)
 "iV" = (
 /turf/open/floor/iron/stairs/left{
 	dir = 1
@@ -2593,6 +2680,14 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/culture)
+"jh" = (
+/obj/structure/glowshroom/single,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/turf/open/floor/plating/rough/cave,
+/area/space)
 "ji" = (
 /obj/effect/turf_decal/bordur/end,
 /obj/structure/roofstuff/alt2,
@@ -2673,12 +2768,6 @@
 	dir = 8
 	},
 /turf/open/floor/circuit,
-/area/space)
-"jt" = (
-/obj/structure/flora/bush/reed/style_random{
-	pixel_x = 13
-	},
-/turf/open/water,
 /area/space)
 "jv" = (
 /obj/effect/turf_decal/bordur/corner{
@@ -3053,6 +3142,23 @@
 /obj/structure/stairs/north,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/culture)
+"kQ" = (
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 4
+	},
+/obj/structure/flora/rock/darkpack,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/turf/open/misc/dirt,
+/area/space)
+"kR" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 8
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "kS" = (
 /obj/structure/table/countertop,
 /obj/item/reagent_containers/condiment/hotsauce{
@@ -3106,6 +3212,13 @@
 /obj/structure/platform/lowwall/rich/old/window,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/culture)
+"lb" = (
+/obj/structure/bed/dogbed,
+/mob/living/basic/pet/dog/wolf/ginger,
+/obj/effect/mapping_helpers/mob_buckler,
+/obj/effect/decal/pallet,
+/turf/open/misc/dirt,
+/area/space)
 "lc" = (
 /obj/effect/mapping_helpers/door/lock,
 /obj/structure/vampdoor/wood,
@@ -3128,6 +3241,17 @@
 	dir = 10
 	},
 /turf/open/floor/plating/sidewalk/poor,
+/area/space)
+"li" = (
+/obj/structure/bed/maint,
+/obj/item/darkpack/spear,
+/obj/item/veil_contract,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/obj/effect/decal/pallet,
+/turf/open/floor/plating/rough/cave,
 /area/space)
 "lk" = (
 /obj/item/melee/vamp/brick{
@@ -3221,6 +3345,13 @@
 /obj/effect/spawner/random/flora/flowers,
 /turf/open/misc/grass/nosmooth,
 /area/vtm/outside/baywalk)
+"lB" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 1
+	},
+/obj/structure/flora/bush/reed/style_random,
+/turf/open/water,
+/area/space)
 "lD" = (
 /obj/structure/closet/crate/dumpster,
 /obj/effect/spawner/random/maintenance/dumpster,
@@ -3350,6 +3481,10 @@
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/culture)
+"mg" = (
+/obj/effect/turf_decal/darkpack/cave/corner,
+/turf/open/water,
+/area/space)
 "mh" = (
 /obj/structure/retail/antique{
 	dir = 1;
@@ -3383,6 +3518,12 @@
 	pixel_x = 5
 	},
 /turf/open/floor/city/plating,
+/area/space)
+"mm" = (
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/stone,
 /area/space)
 "mn" = (
 /obj/effect/turf_decal/siding/wood/dark{
@@ -3475,6 +3616,10 @@
 	},
 /obj/structure/chair/plastic/darkpack{
 	dir = 4
+	},
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
 	},
 /turf/open/misc/grass/nosmooth,
 /area/space)
@@ -3586,6 +3731,10 @@
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/baywalk)
+"mV" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
+/area/space)
 "mX" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -3891,14 +4040,11 @@
 /turf/open/floor/plating/rough,
 /area/space)
 "nY" = (
-/obj/structure/table/wood,
-/obj/item/gun/ballistic/shotgun/vampire/doublebarrel,
-/obj/item/gun/ballistic/shotgun/vampire{
-	pixel_y = 10
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 1
 	},
-/obj/item/ammo_box/darkpack/c12g/buck,
-/obj/item/ammo_box/darkpack/c12g,
-/turf/open/misc/grass,
+/obj/structure/flora/bush/reed/style_random,
+/turf/open/water,
 /area/space)
 "nZ" = (
 /obj/structure/railing{
@@ -3964,9 +4110,11 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 1
 	},
-/obj/structure/flora/bush/reed/style_random{
-	pixel_x = 12
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
 	},
+/obj/structure/flora/bush/reed/style_random,
 /turf/open/water,
 /area/space)
 "ok" = (
@@ -4521,6 +4669,13 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/outside/baywalk)
+"qn" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 1
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
+/area/space)
 "qo" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -4722,6 +4877,7 @@
 	dir = 4
 	},
 /obj/effect/decal/pallet,
+/obj/structure/railing,
 /turf/open/floor/plating/concrete,
 /area/vtm/outside/baywalk)
 "qU" = (
@@ -4940,6 +5096,13 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"rH" = (
+/obj/effect/turf_decal/bordur/corner,
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/outside/baywalk)
 "rI" = (
 /obj/structure/table,
 /obj/item/tattoo_kit{
@@ -5085,6 +5248,11 @@
 /obj/item/stack/sheet/mineral/coal/ten,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/culture)
+"sl" = (
+/obj/effect/turf_decal/darkpack/cave,
+/obj/structure/flora/rock/stalagmite,
+/turf/open/misc/dirt,
+/area/space)
 "sm" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/glass,
@@ -5114,6 +5282,12 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/outside/trainyard)
+"sq" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/turf/open/misc/dirt,
+/area/space)
 "sr" = (
 /turf/open/floor/city/clinic,
 /area/vtm/outside/baywalk)
@@ -5880,6 +6054,13 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/baywalk)
+"ve" = (
+/obj/effect/turf_decal/darkpack/cave,
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 1
+	},
+/turf/open/misc/dirt,
+/area/space)
 "vf" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/all_access,
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -6029,17 +6210,19 @@
 /obj/effect/mapping_helpers/mob_buckler,
 /turf/open/floor/city/plating,
 /area/vtm/outside/baywalk)
+"vJ" = (
+/obj/effect/decal/pallet,
+/obj/structure/closet/crate/large,
+/turf/open/floor/plating/rough,
+/area/space)
 "vK" = (
-/obj/structure/flora/bush/reed/style_random{
-	pixel_x = 15;
-	pixel_y = 11
-	},
 /obj/structure/spacevine{
 	can_spread = 0;
 	pixel_y = 26
 	},
 /obj/structure/flora/rock/pile/darkpack,
 /obj/structure/glowshroom/single,
+/obj/structure/flora/bush/reed/style_random,
 /turf/open/water,
 /area/space)
 "vL" = (
@@ -6167,10 +6350,7 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 10
 	},
-/obj/structure/flora/bush/reed/style_random{
-	pixel_x = 15;
-	pixel_y = 11
-	},
+/obj/structure/flora/bush/reed/style_random,
 /turf/open/water,
 /area/space)
 "wh" = (
@@ -6211,12 +6391,6 @@
 "wo" = (
 /obj/structure/lattice,
 /turf/open/openspace,
-/area/space)
-"wp" = (
-/obj/effect/turf_decal/darkpack/cave/corner{
-	dir = 1
-	},
-/turf/open/water,
 /area/space)
 "wq" = (
 /obj/structure/chair/plastic/darkpack,
@@ -6490,6 +6664,7 @@
 	dir = 4;
 	pixel_y = 8
 	},
+/obj/effect/turf_decal/darkpack/cave,
 /turf/open/misc/dirt,
 /area/space)
 "xk" = (
@@ -6547,6 +6722,13 @@
 	dir = 6
 	},
 /turf/open/misc/grass,
+/area/space)
+"xt" = (
+/obj/structure/flora/rock/darkpack,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 9
+	},
+/turf/open/floor/plating/stone,
 /area/space)
 "xu" = (
 /obj/effect/decal/wallpaper/trim/green,
@@ -6776,6 +6958,13 @@
 /obj/effect/decal/wallpaper/paper/green,
 /turf/closed/wall/vampwall/redbrick,
 /area/space)
+"yl" = (
+/obj/structure/flora/rock/stalagmite,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "ym" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -6835,6 +7024,15 @@
 /obj/effect/decal/cleanable/gasoline,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
+/area/space)
+"yx" = (
+/obj/structure/flora/rock/darkpack,
+/obj/structure/glowshroom/single,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/turf/open/floor/plating/rough/cave,
 /area/space)
 "yy" = (
 /obj/structure/platform/lowwall/brick/window/reinforced,
@@ -6929,6 +7127,13 @@
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/city/gummaguts,
 /area/vtm/outside/baywalk)
+"yM" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 10
+	},
+/obj/structure/flora/rock/stalagmite,
+/turf/open/floor/plating/stone,
+/area/space)
 "yN" = (
 /obj/item/flashlight/lantern/on{
 	pixel_x = -7;
@@ -7090,10 +7295,7 @@
 /area/vtm/outside/culture)
 "zk" = (
 /obj/effect/turf_decal/darkpack/cave,
-/obj/structure/flora/bush/reed/style_random{
-	pixel_x = 1;
-	pixel_y = 10
-	},
+/obj/structure/flora/bush/reed/style_random,
 /turf/open/water,
 /area/space)
 "zl" = (
@@ -7178,6 +7380,13 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
+"zD" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/obj/structure/flora/rock/stalagmite,
+/turf/open/misc/dirt,
+/area/space)
 "zE" = (
 /obj/machinery/oven/range,
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -7204,6 +7413,25 @@
 	density = 0
 	},
 /turf/open/floor/plating/sidewalkalt,
+/area/space)
+"zN" = (
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/obj/structure/table/wood,
+/obj/item/knife/combat/bone{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/screwdriver,
+/obj/item/weldingtool{
+	pixel_y = -11
+	},
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/turf/open/floor/plating/stone,
 /area/space)
 "zP" = (
 /obj/structure/vampdoor/wood{
@@ -7249,6 +7477,17 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/outside/trainyard)
+"zX" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/turf/open/water,
+/area/space)
 "zY" = (
 /obj/structure/stone_tile/slab/cracked,
 /obj/item/food/grown/redbeet{
@@ -7415,6 +7654,14 @@
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/sidewalk/poor,
 /area/space)
+"AC" = (
+/obj/structure/flora/rock/darkpack,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/turf/open/floor/plating/rough/cave,
+/area/space)
 "AE" = (
 /obj/structure/chair/office/darkpack/green{
 	dir = 1
@@ -7498,6 +7745,10 @@
 "AR" = (
 /turf/open/floor/city/bacotell,
 /area/vtm/outside/culture)
+"AS" = (
+/obj/structure/flora/rock/darkpack,
+/turf/open/floor/plating/rough/cave,
+/area/space)
 "AT" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/chair/sofa/right/brown{
@@ -7562,6 +7813,13 @@
 	dir = 1
 	},
 /turf/open/floor/city/plating_mono,
+/area/space)
+"Bd" = (
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 1
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/water,
 /area/space)
 "Be" = (
 /obj/effect/turf_decal/bordur{
@@ -7671,6 +7929,20 @@
 /obj/structure/stairs/east,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/baywalk)
+"BE" = (
+/obj/structure/table/wood,
+/obj/item/shovel/serrated/dull{
+	pixel_y = 16
+	},
+/obj/item/wirecutters,
+/obj/item/crowbar{
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "BF" = (
 /obj/structure/chair/sofa/left/brown{
 	dir = 1;
@@ -7721,6 +7993,13 @@
 	dir = 1
 	},
 /turf/open/floor/circuit,
+/area/space)
+"BP" = (
+/obj/effect/turf_decal/darkpack/cave,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 1
+	},
+/turf/open/floor/plating/stone,
 /area/space)
 "BQ" = (
 /obj/effect/turf_decal/bordur{
@@ -8215,6 +8494,13 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/space)
+"DF" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
+/area/space)
 "DG" = (
 /obj/structure/table,
 /obj/item/reagent_containers/condiment/bbqsauce{
@@ -8507,6 +8793,19 @@
 	pixel_y = 15
 	},
 /turf/open/floor/plating/asphalt,
+/area/vtm/outside/baywalk)
+"Ey" = (
+/obj/effect/decal/pallet,
+/obj/structure/bed/maint,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 4
+	},
+/turf/open/floor/plating/stone,
+/area/space)
+"EA" = (
+/obj/effect/turf_decal/bordur,
+/obj/structure/railing,
+/turf/open/floor/plating/concrete,
 /area/vtm/outside/baywalk)
 "EB" = (
 /obj/machinery/light/small/directional/north,
@@ -8857,6 +9156,17 @@
 	},
 /turf/open/floor/city/bacotell,
 /area/vtm/outside/culture)
+"FD" = (
+/obj/structure/bed/maint,
+/obj/item/darkpack/spear,
+/obj/item/veil_contract,
+/obj/effect/decal/pallet,
+/turf/open/floor/plating/rough/cave,
+/area/space)
+"FE" = (
+/obj/structure/flora/rock/pile/darkpack,
+/turf/open/floor/plating/rough/cave,
+/area/space)
 "FG" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -9114,6 +9424,14 @@
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
+"GL" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/bush/reed/style_random,
+/turf/open/water,
+/area/space)
 "GR" = (
 /obj/structure/sign/city/chinese/alt2/directional/north,
 /turf/open/openspace,
@@ -9319,6 +9637,10 @@
 /area/vtm/outside/culture)
 "HC" = (
 /turf/open/floor/iron/solarpanel,
+/area/space)
+"HD" = (
+/obj/effect/turf_decal/darkpack/cave/corner,
+/turf/open/misc/dirt,
 /area/space)
 "HF" = (
 /obj/effect/turf_decal/siding/wood/dark{
@@ -9587,6 +9909,17 @@
 	color = "#8a8a8a"
 	},
 /area/space)
+"It" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/turf/open/floor/plating/stone,
+/area/space)
+"Iu" = (
+/obj/effect/turf_decal/darkpack/cave,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
+/area/space)
 "Iv" = (
 /obj/effect/turf_decal/siding/wood/light{
 	dir = 4
@@ -9641,14 +9974,6 @@
 	direction = 4
 	},
 /turf/open/floor/plating/stone,
-/area/space)
-"IG" = (
-/obj/structure/vampfence/rich{
-	dir = 4;
-	pixel_y = 8
-	},
-/obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/grass,
 /area/space)
 "IH" = (
 /obj/machinery/griddle,
@@ -9746,25 +10071,6 @@
 /obj/structure/flora/rock/darkpack,
 /turf/open/misc/dirt,
 /area/space)
-"IY" = (
-/obj/structure/glowshroom/single,
-/obj/structure/table/wood,
-/obj/item/darkpack/spear,
-/obj/item/darkpack/spear{
-	pixel_y = 6
-	},
-/obj/item/claymore/machete{
-	pixel_y = 1
-	},
-/obj/item/claymore/machete{
-	pixel_y = 6
-	},
-/obj/item/veil_contract{
-	pixel_y = 10;
-	pixel_x = 10
-	},
-/turf/open/misc/grass,
-/area/space)
 "IZ" = (
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_pp/style_random,
@@ -9846,6 +10152,17 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /turf/open/floor/city/industrial,
+/area/space)
+"Jp" = (
+/obj/structure/flora/rock/stalagmite,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/turf/open/floor/plating/stone,
 /area/space)
 "Jq" = (
 /obj/effect/turf_decal/bordur{
@@ -10153,6 +10470,12 @@
 /obj/item/kitchen/rollingpin,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
+"Kt" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 9
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "Ku" = (
 /obj/structure/safe{
 	pixel_y = 20;
@@ -10435,6 +10758,13 @@
 /obj/effect/spawner/random/flora/flowers,
 /turf/open/misc/grass/nosmooth,
 /area/vtm/outside/baywalk)
+"LA" = (
+/obj/structure/flora/rock/stalagmite,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 10
+	},
+/turf/open/misc/dirt,
+/area/space)
 "LB" = (
 /obj/structure/bed/dogbed{
 	desc = "A small pet bed.";
@@ -10928,6 +11258,12 @@
 /obj/structure/sign/flag/italy/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/space)
+"Nm" = (
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "Nn" = (
 /obj/effect/turf_decal/asphaltline/alt{
 	dir = 8;
@@ -11042,6 +11378,13 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights/industrial)
+"NC" = (
+/obj/effect/turf_decal/bordur/corner{
+	dir = 8
+	},
+/obj/structure/closet/crate/dumpster,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/outside/baywalk)
 "NE" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
@@ -11341,6 +11684,16 @@
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/city/gummaguts,
 /area/vtm/outside/baywalk)
+"OA" = (
+/obj/structure/glowshroom/single,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 10
+	},
+/turf/open/misc/dirt,
+/area/space)
 "OB" = (
 /obj/structure/stairs/south,
 /turf/open/floor/plating/sidewalkalt,
@@ -11435,6 +11788,12 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/space)
+"OS" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 9
+	},
+/turf/open/misc/dirt,
+/area/space)
 "OT" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -11480,9 +11839,6 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 5
 	},
-/obj/structure/flora/bush/reed/style_random{
-	pixel_x = -13
-	},
 /obj/structure/flora/rock/pile/darkpack,
 /turf/open/water,
 /area/space)
@@ -11495,6 +11851,10 @@
 	},
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/outside/culture)
+"Ph" = (
+/obj/effect/turf_decal/darkpack/cave/corner,
+/turf/open/floor/plating/stone,
+/area/space)
 "Pi" = (
 /obj/structure/rack/tall/wood_shelf/alt{
 	dir = 8
@@ -11511,6 +11871,11 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
+"Pl" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/effect/realistic_fog/dense/strong,
+/turf/open/water,
+/area/space)
 "Pm" = (
 /obj/machinery/telecomms/hub,
 /obj/effect/turf_decal/siding/grey,
@@ -11526,6 +11891,16 @@
 /obj/effect/decal/cleanable/gasoline,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
+/area/space)
+"Pp" = (
+/obj/structure/bed/maint,
+/obj/item/claymore/machete,
+/obj/structure/spacevine{
+	can_spread = 0;
+	pixel_y = 26
+	},
+/obj/effect/decal/pallet,
+/turf/open/floor/plating/rough/cave,
 /area/space)
 "Pq" = (
 /obj/effect/turf_decal/siding/wood/dark,
@@ -11899,6 +12274,13 @@
 /obj/structure/railing,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/baywalk)
+"QM" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 1
+	},
+/obj/structure/flora/rock/pile/darkpack,
+/turf/open/water,
+/area/space)
 "QN" = (
 /obj/structure/table/wood,
 /obj/structure/platform/lowwall/old,
@@ -11907,6 +12289,15 @@
 "QP" = (
 /obj/structure/railing/wooden_fence,
 /turf/open/openspace,
+/area/space)
+"QQ" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/obj/structure/bed/maint,
+/obj/item/claymore/machete,
+/obj/effect/decal/pallet,
+/turf/open/floor/plating/stone,
 /area/space)
 "QT" = (
 /obj/effect/spawner/random/structure/billboard/darkpack,
@@ -11951,6 +12342,14 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
+"Rc" = (
+/obj/machinery/defibrillator_mount/mobile,
+/obj/item/defibrillator/loaded,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 10
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "Rd" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/effect/turf_decal/siding/beige{
@@ -12119,6 +12518,13 @@
 	},
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/outside/culture)
+"RL" = (
+/obj/effect/turf_decal/darkpack/cave/corner,
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 4
+	},
+/turf/open/misc/dirt,
+/area/space)
 "RM" = (
 /turf/open/misc/dirt/rails,
 /area/vtm/outside/trainyard)
@@ -12373,9 +12779,23 @@
 	},
 /turf/open/floor/wood/herring,
 /area/space)
+"Sx" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 9
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
+/area/space)
 "Sy" = (
 /turf/open/floor/city/industrial/large,
 /area/vtm/outside/baywalk)
+"Sz" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
+/area/space)
 "SC" = (
 /obj/structure/mannequin/plastic/fancy,
 /obj/effect/turf_decal/siding/beige{
@@ -12741,30 +13161,10 @@
 /turf/open/floor/plating/concrete,
 /area/space)
 "TO" = (
-/obj/structure/table/wood,
-/obj/item/gun/ballistic/revolver/darkpack/magnum,
-/obj/item/gun/ballistic/revolver/darkpack/magnum{
-	pixel_y = 6
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 10
 	},
-/obj/item/ammo_box/darkpack/c44,
-/obj/item/ammo_box/darkpack/c44,
-/obj/item/veil_contract{
-	pixel_y = 10;
-	pixel_x = 10
-	},
-/obj/item/flashlight/lantern{
-	pixel_x = -10
-	},
-/obj/item/flashlight/lantern{
-	pixel_x = -10
-	},
-/obj/item/flashlight/lantern{
-	pixel_x = -10
-	},
-/obj/item/flashlight/lantern{
-	pixel_x = -10
-	},
-/turf/open/misc/grass,
+/turf/open/floor/plating/stone,
 /area/space)
 "TP" = (
 /obj/structure/table/wood,
@@ -12797,6 +13197,16 @@
 /obj/structure/table/wood,
 /obj/item/toy/cards/deck/wizoff,
 /turf/open/floor/wood/smooth/old,
+/area/space)
+"TW" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 4
+	},
+/obj/structure/bed/dogbed,
+/mob/living/basic/pet/dog/wolf/ginger,
+/obj/effect/mapping_helpers/mob_buckler,
+/obj/effect/decal/pallet,
+/turf/open/misc/dirt,
 /area/space)
 "TX" = (
 /turf/open/misc/dirt,
@@ -13313,6 +13723,16 @@
 /obj/effect/decal/wallpaper/blue,
 /turf/closed/wall/vampwall/painted,
 /area/space)
+"VX" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 8
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
+/area/space)
 "VY" = (
 /obj/effect/turf_decal/siding/wood/dark/corner{
 	dir = 4
@@ -13347,6 +13767,10 @@
 	},
 /obj/effect/realistic_fog/dense,
 /turf/open/misc/dirt,
+/area/space)
+"Wf" = (
+/obj/structure/flora/bush/reed/style_random,
+/turf/open/water,
 /area/space)
 "Wh" = (
 /turf/open/water/beach,
@@ -13604,6 +14028,12 @@
 /obj/effect/mapping_helpers/door/autoname,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/culture)
+"Xh" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 5
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "Xi" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/darkpack/bluesilver,
@@ -13719,6 +14149,10 @@
 /obj/machinery/microwave,
 /turf/open/floor/city/bacotell,
 /area/space)
+"XI" = (
+/obj/structure/flora/rock/pile/darkpack,
+/turf/open/water,
+/area/space)
 "XJ" = (
 /obj/structure/roofstuff/vent_end,
 /turf/open/floor/plating/sidewalk/poor{
@@ -13739,6 +14173,13 @@
 "XM" = (
 /obj/structure/sign/city/chinese/alt/directional/east,
 /turf/open/openspace,
+/area/space)
+"XN" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 10
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/turf/open/misc/dirt,
 /area/space)
 "XO" = (
 /obj/effect/turf_decal/asphaltline/alt{
@@ -13909,6 +14350,14 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/financialdistrict)
+"Yr" = (
+/obj/structure/glowshroom/single,
+/obj/structure/flora/rock/darkpack,
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 6
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "Ys" = (
 /obj/structure/chair/sofa/left/brown{
 	dir = 4;
@@ -13955,6 +14404,18 @@
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/culture)
+"YE" = (
+/obj/effect/turf_decal/siding/beige{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/opposingcorners,
+/obj/structure/vampdoor{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/turf/open/floor/city/gummaguts,
+/area/vtm/outside/baywalk)
 "YF" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -14210,6 +14671,15 @@
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/culture)
+"Zm" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 9
+	},
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 10
+	},
+/turf/open/floor/plating/stone,
+/area/space)
 "Zn" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -14262,6 +14732,12 @@
 /turf/open/floor/plating/sidewalkalt{
 	color = "#b5b5b5"
 	},
+/area/space)
+"Zy" = (
+/obj/effect/turf_decal/darkpack/cave/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/stone,
 /area/space)
 "Zz" = (
 /obj/structure/chair/wood/darkpack{
@@ -19759,16 +20235,16 @@ NM
 Az
 xG
 fH
-TX
+mV
 Ec
 xy
 UC
 UC
 NM
-jD
-jD
-NM
-NM
+yx
+lb
+Sx
+LA
 NM
 NM
 NM
@@ -19916,13 +20392,13 @@ GC
 JL
 No
 Tu
-TX
+mV
 JL
 xg
 jD
 jD
-jD
-jD
+DF
+ve
 NM
 NM
 NM
@@ -20076,8 +20552,8 @@ ch
 jD
 jD
 jD
-jD
-NM
+VX
+OA
 NM
 NM
 NM
@@ -20225,15 +20701,15 @@ JL
 TX
 AE
 JL
-TX
-IG
+Iu
+At
+Kt
+TO
 jD
 jD
 jD
-jD
-jD
-NM
-NM
+ba
+iU
 NM
 NM
 NM
@@ -20376,19 +20852,19 @@ KR
 xG
 BT
 UC
-TX
+mV
 kn
 jp
 AU
 NM
+Jp
+It
 jD
 jD
 jD
-jD
-jD
-jD
-NM
-NM
+fI
+lB
+Cy
 NM
 NM
 NM
@@ -20536,13 +21012,13 @@ qd
 rY
 NM
 NM
+yx
+FE
+Zm
 jD
-jD
-jD
-jD
-jD
-jD
-NM
+iU
+mg
+XI
 NM
 NM
 NM
@@ -20692,12 +21168,12 @@ NM
 NM
 wg
 jD
+BP
 jD
-jD
-jD
-jD
-jD
-NM
+lB
+DK
+Pl
+Wf
 NM
 NM
 NM
@@ -20846,12 +21322,12 @@ vK
 Cy
 zk
 jD
-jD
+dG
 TO
-IY
+YW
 nY
-jD
-NM
+DK
+XI
 NM
 NM
 NM
@@ -20996,16 +21472,16 @@ NM
 oj
 DK
 Cy
-jt
+DK
 hY
 Rj
+FE
+Xh
+It
 jD
-jD
-jD
-jD
-jD
-jD
-NM
+QM
+Wf
+Cy
 NM
 NM
 NM
@@ -21147,18 +21623,18 @@ NM
 NM
 NM
 NM
-YW
-wp
+zX
+nY
 ac
 NN
 mj
+FD
 jD
 jD
 jD
 jD
-jD
-jD
-NM
+GL
+Bd
 NM
 NM
 NM
@@ -21298,19 +21774,19 @@ NM
 NM
 NM
 NM
-jD
-jD
+AC
+QQ
 NM
-vy
+jh
 Pf
 wY
 cm
+AS
 jD
 jD
 jD
 jD
-jD
-jD
+dm
 NM
 NM
 NM
@@ -21451,7 +21927,7 @@ Ld
 NM
 NM
 NM
-jD
+sl
 jD
 jD
 At
@@ -21460,11 +21936,11 @@ jD
 jD
 yN
 jD
+OS
+XN
 jD
 jD
-jD
-jD
-NM
+AS
 NM
 NM
 NM
@@ -21604,8 +22080,8 @@ RA
 Ld
 NM
 NM
-jD
-jD
+kQ
+Sz
 jD
 jD
 NV
@@ -21613,11 +22089,11 @@ jD
 jD
 jD
 jD
+Sx
+RL
+du
 jD
-jD
-jD
-NM
-NM
+vy
 NM
 NM
 NM
@@ -21757,22 +22233,22 @@ hU
 RA
 Ld
 NM
-jD
-jD
+fF
+Sz
 jD
 jD
 jD
 At
+xt
+kR
+TO
+jD
+sq
+Sz
 jD
 jD
-jD
-jD
-jD
-NM
-NM
-NM
-NM
-NM
+Kt
+ai
 NM
 NM
 NM
@@ -21911,23 +22387,23 @@ hU
 RA
 Ld
 NM
+li
 jD
 jD
 jD
-jD
-jD
+AS
 NM
 NM
 NM
-NM
-NM
-NM
-NM
-NM
-NM
-NM
-NM
-NM
+yl
+dm
+vy
+AS
+Kt
+kR
+Ph
+Zy
+Rc
 NM
 NM
 NM
@@ -22065,10 +22541,10 @@ hU
 RA
 Ld
 NM
+AC
 jD
 jD
-jD
-jD
+Sx
 Ld
 Ld
 Ld
@@ -22077,11 +22553,11 @@ Ld
 Ld
 Ld
 NM
-NM
-NM
-NM
-NM
-NM
+ed
+mm
+Nm
+Ey
+Yr
 NM
 NM
 NM
@@ -22219,21 +22695,21 @@ hU
 RA
 Ld
 NM
+yM
 jD
-jD
-jD
-jD
+OS
+HD
 Jk
 Sm
 SK
-SK
 Kb
+vJ
 VD
 Ld
 NM
 NM
-NM
-NM
+zN
+BE
 NM
 NM
 NM
@@ -22374,15 +22850,15 @@ RA
 Ld
 NM
 NM
-jD
-jD
-jD
+Pp
+qn
+TX
 Yj
 XP
 SK
 SK
 SK
-Kb
+vJ
 Ld
 NM
 NM
@@ -22529,14 +23005,14 @@ Ld
 NM
 NM
 NM
-jD
-jD
+zD
+TW
 Yj
 Nt
-SK
-SK
+Kb
 SK
 Kb
+vJ
 Ld
 NM
 NM
@@ -42303,15 +42779,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -42457,15 +42933,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -42611,15 +43087,15 @@ gu
 sw
 EF
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -42765,15 +43241,15 @@ gu
 Wt
 EF
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -42919,15 +43395,15 @@ XL
 Wt
 EF
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -43073,15 +43549,15 @@ nj
 gu
 EF
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -43227,15 +43703,15 @@ WP
 Wt
 EF
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -43381,15 +43857,15 @@ gu
 Wt
 EF
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -43535,15 +44011,15 @@ Wt
 gb
 EF
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -43689,15 +44165,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -43843,15 +44319,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -43997,15 +44473,15 @@ gu
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -44151,15 +44627,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -44305,15 +44781,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -44459,15 +44935,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -44613,15 +45089,15 @@ gu
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -44767,15 +45243,15 @@ gu
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -44921,15 +45397,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -45075,15 +45551,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -45229,15 +45705,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -45383,15 +45859,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -45537,15 +46013,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -45691,15 +46167,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -45845,15 +46321,15 @@ gu
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -45999,15 +46475,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -46153,15 +46629,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -46307,15 +46783,15 @@ Wt
 ur
 aZ
 or
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
-Wt
+or
+or
+or
+or
+or
+or
+or
+or
+or
 ls
 oS
 eE
@@ -47176,7 +47652,7 @@ Il
 cB
 pJ
 pB
-Ih
+rH
 bh
 Sq
 Bn
@@ -47330,7 +47806,7 @@ kh
 GZ
 Bl
 MV
-ot
+EA
 bh
 Sq
 Bn
@@ -51497,8 +51973,8 @@ MV
 MV
 MV
 Pb
-Pb
-Pb
+Ed
+YE
 Pb
 Pb
 Pb
@@ -51651,7 +52127,7 @@ Pb
 Pb
 Pb
 Pb
-Fw
+NC
 tS
 tt
 Pb
@@ -54414,21 +54890,21 @@ wG
 wG
 wG
 wG
+wG
+wG
+wG
 tG
 lJ
 rD
 fe
-wG
-wG
+fe
+fe
+fe
+fe
 wG
 wG
 wG
 fe
-Bs
-Bs
-Bs
-Bs
-Bs
 Ne
 CA
 ad
@@ -54568,6 +55044,9 @@ wG
 wG
 wG
 wG
+wG
+wG
+wG
 tG
 EM
 JU
@@ -54577,12 +55056,9 @@ wG
 wG
 wG
 wG
+wG
+wG
 fe
-Bs
-Bs
-Bs
-Bs
-Bs
 Ne
 CA
 CA
@@ -54722,6 +55198,9 @@ wG
 wG
 wG
 wG
+wG
+wG
+wG
 tG
 EM
 JU
@@ -54731,12 +55210,9 @@ wG
 wG
 wG
 wG
+wG
+wG
 fe
-Bs
-Bs
-Bs
-Bs
-Bs
 Ne
 CA
 CA
@@ -54876,6 +55352,9 @@ wG
 wG
 wG
 wG
+wG
+wG
+wG
 tG
 EM
 JU
@@ -54885,12 +55364,9 @@ wG
 wG
 wG
 wG
+wG
+wG
 fe
-Bs
-Bs
-Bs
-Bs
-Bs
 Ne
 CA
 CA
@@ -55030,6 +55506,9 @@ wG
 wG
 wG
 wG
+wG
+wG
+wG
 tG
 EM
 NW
@@ -55039,12 +55518,9 @@ wG
 wG
 wG
 wG
+wG
+wG
 fe
-Bs
-Bs
-Bs
-Bs
-Bs
 Ne
 CA
 CA
@@ -55184,6 +55660,9 @@ wG
 wG
 wG
 wG
+wG
+wG
+wG
 tG
 EM
 fe
@@ -55193,12 +55672,9 @@ wG
 wG
 wG
 wG
+wG
+wG
 fe
-Bs
-Bs
-Bs
-Bs
-Bs
 Ne
 CA
 CA
@@ -55338,6 +55814,9 @@ wG
 wG
 wG
 wG
+wG
+wG
+wG
 tG
 EM
 JU
@@ -55347,12 +55826,9 @@ wG
 wG
 wG
 wG
+wG
+wG
 fe
-Bs
-Bs
-Bs
-Bs
-Bs
 Ne
 CA
 CA
@@ -55492,6 +55968,9 @@ kV
 kV
 kV
 kV
+kV
+kV
+kV
 tG
 EM
 JU
@@ -55502,11 +55981,8 @@ fe
 fe
 fe
 fe
-Bs
-Bs
-Bs
-Bs
-Bs
+fe
+fe
 Ne
 CA
 CA
@@ -55646,13 +56122,13 @@ Dt
 Dt
 Dt
 Dt
+Dt
+Dt
+Dt
 DX
 qa
 qa
 xS
-Dt
-Dt
-Dt
 Dt
 Dt
 Dt
@@ -69192,7 +69668,7 @@ KX
 KX
 KX
 iY
-Ly
+fZ
 Ly
 Yz
 Yz
@@ -77823,6 +78299,9 @@ MT
 MT
 MT
 MT
+MT
+MT
+MT
 Tl
 KX
 KX
@@ -77833,11 +78312,8 @@ UO
 UO
 UO
 UO
-KX
-KX
-KX
-KX
-KX
+UO
+UO
 KX
 KX
 KX
@@ -77977,6 +78453,9 @@ TN
 TN
 TN
 TN
+TN
+TN
+TN
 Tl
 KX
 KX
@@ -77986,12 +78465,9 @@ TN
 TN
 TN
 TN
+TN
+TN
 UO
-KX
-KX
-KX
-KX
-KX
 KX
 KX
 KX
@@ -78131,6 +78607,9 @@ TN
 TN
 TN
 TN
+TN
+TN
+TN
 Tl
 KX
 KX
@@ -78140,12 +78619,9 @@ TN
 TN
 TN
 TN
+TN
+TN
 UO
-KX
-KX
-KX
-KX
-KX
 KX
 KX
 KX
@@ -78285,6 +78761,9 @@ TN
 TN
 TN
 TN
+TN
+TN
+TN
 Tl
 KX
 KX
@@ -78294,12 +78773,9 @@ TN
 TN
 TN
 TN
+TN
+TN
 UO
-KX
-KX
-KX
-KX
-KX
 KX
 KX
 KX
@@ -78436,6 +78912,9 @@ KX
 MT
 TN
 TN
+TN
+TN
+TN
 ec
 TN
 TN
@@ -78445,15 +78924,12 @@ KX
 UO
 TN
 TN
+TN
+TN
 ec
 TN
 TN
 UO
-KX
-KX
-KX
-KX
-KX
 KX
 KX
 KX
@@ -78593,6 +79069,9 @@ TN
 TN
 TN
 TN
+TN
+TN
+TN
 Tl
 KX
 TN
@@ -78602,12 +79081,9 @@ TN
 TN
 TN
 TN
+TN
+TN
 UO
-KX
-KX
-KX
-KX
-KX
 KX
 KX
 KX
@@ -78747,6 +79223,9 @@ TN
 TN
 TN
 TN
+TN
+TN
+TN
 Tl
 KX
 TN
@@ -78756,12 +79235,9 @@ TN
 TN
 TN
 TN
+TN
+TN
 UO
-KX
-KX
-KX
-KX
-KX
 KX
 KX
 KX
@@ -78901,6 +79377,9 @@ MT
 MT
 MT
 MT
+MT
+MT
+MT
 Tl
 KX
 TN
@@ -78911,11 +79390,8 @@ UO
 UO
 UO
 UO
-KX
-KX
-KX
-KX
-KX
+UO
+UO
 KX
 KX
 KX
