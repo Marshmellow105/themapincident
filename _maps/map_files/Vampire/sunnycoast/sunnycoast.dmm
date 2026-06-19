@@ -2415,9 +2415,6 @@
 /turf/open/floor/city/gummaguts,
 /area/vtm/outside/baywalk)
 "gX" = (
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 8
 	},
@@ -2936,6 +2933,15 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/space)
+"iB" = (
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 10
+	},
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 9
+	},
+/turf/open/misc/dirt,
+/area/space)
 "iC" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/poor,
@@ -3245,10 +3251,6 @@
 /turf/open/floor/circuit,
 /area/space)
 "jt" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 10
 	},
@@ -3310,19 +3312,12 @@
 /turf/open/floor/plating/rough/cave,
 /area/space)
 "jE" = (
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 8
 	},
 /obj/effect/turf_decal/darkpack/rough/corner{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
 /obj/item/shovel/vamp,
 /turf/open/misc/dirt,
 /area/space)
@@ -4084,9 +4079,6 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/ten,
 /obj/effect/mapping_helpers/door/bash_difficulty/ten,
 /obj/effect/mapping_helpers/door/lock,
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 9
 	},
@@ -4446,10 +4438,6 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/space)
 "nb" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 6
 	},
@@ -8317,16 +8305,6 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/space)
-"yp" = (
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
-/obj/effect/turf_decal/darkpack/rough{
-	dir = 10
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
-/area/space)
 "yq" = (
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/outside/culture)
@@ -11595,6 +11573,17 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/culture)
+"HB" = (
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 10
+	},
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 5
+	},
+/obj/machinery/iv_drip,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/misc/dirt,
+/area/space)
 "HC" = (
 /turf/open/floor/iron/solarpanel,
 /area/space)
@@ -11940,9 +11929,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
 "ID" = (
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 6
 	},
@@ -12854,6 +12840,16 @@
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/roofwalk,
 /area/space)
+"Lk" = (
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 5
+	},
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/misc/dirt,
+/area/space)
 "Ll" = (
 /obj/machinery/oven/range,
 /turf/open/floor/city/bacotell,
@@ -13197,6 +13193,13 @@
 "Mm" = (
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/outside/culture)
+"Mn" = (
+/obj/effect/turf_decal/darkpack/rough{
+	dir = 6
+	},
+/obj/effect/landmark/start/darkpack/society_of_leopold/novice,
+/turf/open/misc/dirt,
+/area/space)
 "Mo" = (
 /obj/structure/table/wood,
 /obj/item/plate{
@@ -14880,10 +14883,6 @@
 /obj/effect/decal/wallpaper/padded,
 /turf/closed/wall/vampwall/painted,
 /area/space)
-"RC" = (
-/obj/machinery/iv_drip,
-/turf/open/floor/plating/rough,
-/area/space)
 "RD" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
@@ -15305,6 +15304,10 @@
 /turf/open/floor/plating/sidewalk/poor{
 	color = "#bfbfbf"
 	},
+/area/space)
+"SI" = (
+/obj/effect/landmark/start/darkpack/society_of_leopold/novice,
+/turf/open/floor/plating/rough,
 /area/space)
 "SJ" = (
 /obj/effect/turf_decal/bordur/corner{
@@ -16079,12 +16082,10 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/culture)
 "Vb" = (
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 10
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/misc/dirt,
 /area/space)
 "Vc" = (
@@ -17630,9 +17631,6 @@
 	dir = 4;
 	pixel_y = 8
 	},
-/obj/effect/decal/fakelattice{
-	density = 0
-	},
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 5
 	},
@@ -17890,11 +17888,11 @@ NM
 NM
 NM
 NM
-NM
-NM
-NM
-NM
-NM
+nc
+nc
+nc
+nc
+nc
 NM
 NM
 NM
@@ -18045,13 +18043,13 @@ nc
 nc
 nc
 nc
+Qx
+zz
+gK
 nc
 nc
 nc
 nc
-NM
-NM
-NM
 nc
 Vt
 wp
@@ -18199,13 +18197,13 @@ ZC
 kC
 gE
 nc
-Qx
-zz
-gK
+Mn
+SI
+bE
 nc
+XG
+Yv
 nc
-NM
-NM
 nc
 Vt
 vS
@@ -18353,13 +18351,13 @@ nb
 bx
 iT
 lV
-bE
-bE
+hG
+hG
+SK
+iB
+hG
 vm
 SB
-nc
-NM
-NM
 nc
 Vt
 vS
@@ -18507,13 +18505,13 @@ bx
 SK
 hG
 mb
-yp
+Vb
+SK
+hG
+Lk
 SK
 bE
 gD
-nc
-NM
-NM
 nc
 nc
 nc
@@ -18663,11 +18661,11 @@ bx
 ZI
 jE
 Vb
-bE
+SK
+SK
+hG
+HB
 oN
-nc
-NM
-NM
 nc
 pZ
 wp
@@ -18817,11 +18815,11 @@ gE
 nc
 mA
 ID
-RC
+hG
 nc
+Yv
+XG
 nc
-NM
-NM
 nc
 Vt
 vS
@@ -65186,7 +65184,7 @@ KX
 KX
 KX
 qA
-Xe
+nc
 zv
 Aq
 Aq
@@ -66110,7 +66108,7 @@ KX
 KX
 KX
 qA
-Xe
+nc
 zv
 Aq
 Aq
