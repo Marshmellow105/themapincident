@@ -8085,6 +8085,7 @@
 #include "modular_tfn\modules\random_events\code\spider.dm"
 #include "modular_tfn\modules\skillcheck\code\skillcheck.dm"
 #include "modular_tfn\modules\storyteller_stats\code\stat_validation.dm"
+#include "modular_tfn\modules\sunnycoast\code\sunnycoast_items.dm"
 #include "modular_tfn\modules\umbrellas\code\greyscale_config.dm"
 #include "modular_tfn\modules\umbrellas\code\loadout.dm"
 #include "modular_tfn\modules\umbrellas\code\store_overrides.dm"
