@@ -6381,6 +6381,9 @@
 /obj/item/storage/belt/sheath/vamp/sword,
 /obj/item/storage/belt/sheath/vamp/sword,
 /obj/item/storage/belt/sheath/vamp/sword,
+/obj/item/shield/kite,
+/obj/item/shield/kite,
+/obj/item/shield/kite,
 /turf/open/floor/plating/rough,
 /area/space)
 "hts" = (
@@ -9119,9 +9122,20 @@
 /obj/effect/decal/cleanable/cobweb{
 	pixel_y = 24
 	},
-/obj/item/ammo_box/darkpack/c12g/buck,
-/obj/item/ammo_box/darkpack/c12g/buck{
+/obj/item/ammo_box/darkpack/c12g/buck/incendiary{
+	pixel_x = -5
+	},
+/obj/item/ammo_box/darkpack/c12g/buck/incendiary{
+	pixel_x = -5;
 	pixel_y = 6
+	},
+/obj/item/ammo_box/darkpack/c12g/silver{
+	pixel_y = 0;
+	pixel_x = 5
+	},
+/obj/item/ammo_box/darkpack/c12g/silver{
+	pixel_y = 6;
+	pixel_x = 5
 	},
 /turf/open/floor/plating/rough,
 /area/space)
@@ -11709,6 +11723,38 @@
 /obj/item/disk/computer,
 /obj/item/disk/computer,
 /turf/open/floor/city/plating_mono,
+/area/space)
+"nsV" = (
+/obj/structure/platform/lowwall/rich/old,
+/obj/structure/jesuscross{
+	density = 0;
+	pixel_y = 11
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = 9;
+	pixel_x = 8
+	},
+/obj/item/flashlight/flare/candle/infinite{
+	pixel_y = 9;
+	pixel_x = -7
+	},
+/obj/item/ammo_box/darkpack/c556/incendiary{
+	pixel_y = -2;
+	pixel_x = 9
+	},
+/obj/item/ammo_box/darkpack/c556/incendiary{
+	pixel_y = -2;
+	pixel_x = 9
+	},
+/obj/item/ammo_box/darkpack/c556/silver{
+	pixel_y = -2;
+	pixel_x = -9
+	},
+/obj/item/ammo_box/darkpack/c556/silver{
+	pixel_y = -2;
+	pixel_x = -9
+	},
+/turf/open/floor/plating/rough,
 /area/space)
 "ntu" = (
 /obj/structure/chair/plastic/darkpack{
@@ -17593,9 +17639,10 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2{
 	pixel_y = 24
 	},
-/obj/item/shield/kite,
-/obj/item/shield/kite,
-/obj/item/shield/kite,
+/obj/item/gun/ballistic/automatic/darkpack/huntrifle,
+/obj/item/gun/ballistic/automatic/darkpack/huntrifle{
+	pixel_y = 8
+	},
 /turf/open/floor/plating/rough,
 /area/space)
 "tTt" = (
@@ -22138,7 +22185,7 @@ gAd
 (6,1,1) = {"
 gAd
 nvf
-sxs
+nsV
 jjm
 hWB
 auQ
