@@ -7917,6 +7917,16 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/space)
+"iPM" = (
+/obj/effect/turf_decal/siding/grey{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/grey,
+/obj/machinery/door/airlock/elevator/multi_tile{
+	transport_linked_id = "Millenium"
+	},
+/turf/open/floor/city/plating_mono,
+/area/vtm/outside/financialdistrict)
 "iQm" = (
 /turf/closed/wall/vampwall/brick,
 /area/vtm/outside/baywalk)
@@ -8544,6 +8554,16 @@
 	dir = 4
 	},
 /turf/open/floor/wood/herring,
+/area/space)
+"jyo" = (
+/obj/effect/turf_decal/siding/grey{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/grey,
+/obj/machinery/door/airlock/elevator/multi_tile{
+	transport_linked_id = "Millenium"
+	},
+/turf/open/floor/city/plating_mono,
 /area/space)
 "jyw" = (
 /obj/structure/fence/cut/large{
@@ -12325,6 +12345,15 @@
 	dir = 1
 	},
 /area/space)
+"nzi" = (
+/obj/structure/transport/linear/public{
+	icon_state = "textured_dark_large"
+	},
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "Millenium"
+	},
+/turf/open/floor/plating/rough,
+/area/space)
 "nzt" = (
 /obj/structure/stairs/west,
 /obj/structure/railing,
@@ -12742,6 +12771,19 @@
 /obj/effect/decal/wallpaper/red,
 /turf/closed/wall/vampwall/painted,
 /area/vtm/outside/baywalk)
+"nTA" = (
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "Millenium"
+	},
+/obj/machinery/button/elevator/directional/north{
+	id = "Millenium";
+	pixel_y = 35;
+	pixel_x = 9
+	},
+/turf/open/floor/city/plating,
+/area/space)
 "nTE" = (
 /turf/open/openspace,
 /area/vtm/outside/financialdistrict)
@@ -17292,6 +17334,19 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/baywalk)
+"tgt" = (
+/obj/structure/transport/linear/public{
+	icon_state = "textured_dark_large"
+	},
+/obj/effect/abstract/elevator_music_zone{
+	linked_elevator_id = "Millenium"
+	},
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "Millenium";
+	preset_destination_names = list("2" = "Theatre/Parking Floor", "3" = "Lobby/Breakroom Floor", "4" = "Offices Floor", "5" = "Security Floor", "6" = "Executive Floor")
+	},
+/turf/open/floor/plating/rough,
+/area/space)
 "thc" = (
 /obj/effect/turf_decal/siding/grey/corner{
 	dir = 1
@@ -19469,6 +19524,19 @@
 /obj/effect/landmark/start/darkpack/society_of_leopold/inquisitor,
 /turf/open/misc/dirt,
 /area/space)
+"vgZ" = (
+/obj/machinery/lift_indicator/directional/north{
+	pixel_x = -5;
+	pixel_y = 20;
+	linked_elevator_id = "Millenium"
+	},
+/obj/machinery/button/elevator/directional/north{
+	id = "Millenium";
+	pixel_y = 35;
+	pixel_x = 9
+	},
+/turf/open/floor/city/plating,
+/area/vtm/outside/financialdistrict)
 "vie" = (
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/chair/wood/darkpack{
@@ -21029,6 +21097,12 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/misc/dirt,
+/area/space)
+"wZO" = (
+/obj/structure/transport/linear/public{
+	icon_state = "textured_dark_large"
+	},
+/turf/open/floor/plating/rough,
 /area/space)
 "xaN" = (
 /obj/structure/table/wood,
@@ -34958,9 +35032,9 @@ ueZ
 tpW
 eLO
 eLO
-hWB
-hWB
-xJI
+tgt
+wZO
+jyo
 dMZ
 aHH
 dMZ
@@ -35112,8 +35186,8 @@ ueZ
 tpW
 eLO
 eLO
-hWB
-hWB
+nzi
+wZO
 xJI
 dMZ
 aHH
@@ -35269,7 +35343,7 @@ eLO
 eLO
 eLO
 blm
-dMZ
+nTA
 aHH
 dMZ
 baD
@@ -58369,7 +58443,7 @@ hnQ
 hnQ
 nTE
 nTE
-gyw
+iPM
 dKS
 xKZ
 dKS
@@ -58678,7 +58752,7 @@ hnQ
 hnQ
 hnQ
 fAJ
-dKS
+vgZ
 xKZ
 dKS
 fOf
@@ -81778,7 +81852,7 @@ eLO
 eLO
 ttI
 ttI
-xJI
+jyo
 dMZ
 aHH
 dMZ
@@ -82087,7 +82161,7 @@ eLO
 eLO
 eLO
 cQr
-dMZ
+nTA
 aHH
 dMZ
 uIW
@@ -105187,7 +105261,7 @@ eLO
 eLO
 ttI
 ttI
-xJI
+jyo
 dMZ
 aHH
 aHH
@@ -105496,7 +105570,7 @@ eLO
 eLO
 eLO
 cQr
-dMZ
+nTA
 aHH
 dMZ
 eLq
@@ -128596,7 +128670,7 @@ eLO
 eLO
 ttI
 ttI
-xJI
+jyo
 dMZ
 aHH
 aHH
@@ -128905,7 +128979,7 @@ eLO
 eLO
 eLO
 cxy
-dMZ
+nTA
 dMZ
 pSs
 kkU
