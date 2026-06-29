@@ -4533,6 +4533,9 @@
 /area/space)
 "eUc" = (
 /obj/effect/turf_decal/bordur/corner,
+/obj/structure/railing{
+	dir = 10
+	},
 /turf/open/water/beach,
 /area/vtm/outside/financialdistrict)
 "eUG" = (
@@ -4621,6 +4624,9 @@
 "fck" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 4
+	},
+/obj/structure/railing{
+	dir = 6
 	},
 /turf/open/water/beach,
 /area/vtm/outside/financialdistrict)
@@ -6645,6 +6651,9 @@
 	dir = 1
 	},
 /obj/machinery/light/floor,
+/obj/structure/railing{
+	dir = 1
+	},
 /turf/open/water/beach,
 /area/vtm/outside/financialdistrict)
 "huD" = (
@@ -10953,6 +10962,9 @@
 	dir = 4
 	},
 /obj/machinery/light/floor,
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/water/beach,
 /area/vtm/outside/financialdistrict)
 "meu" = (
@@ -11751,6 +11763,9 @@
 "mVU" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
+	},
+/obj/structure/railing{
+	dir = 5
 	},
 /turf/open/water/beach,
 /area/vtm/outside/financialdistrict)
@@ -13461,6 +13476,9 @@
 /obj/effect/turf_decal/bordur/corner{
 	dir = 8
 	},
+/obj/structure/railing{
+	dir = 9
+	},
 /turf/open/water/beach,
 /area/vtm/outside/financialdistrict)
 "oEw" = (
@@ -13619,6 +13637,7 @@
 "oMy" = (
 /obj/effect/turf_decal/bordur,
 /obj/machinery/light/floor,
+/obj/structure/railing,
 /turf/open/water/beach,
 /area/vtm/outside/financialdistrict)
 "oME" = (
@@ -17037,6 +17056,9 @@
 	dir = 8
 	},
 /obj/machinery/light/floor,
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/water/beach,
 /area/vtm/outside/financialdistrict)
 "sSL" = (
