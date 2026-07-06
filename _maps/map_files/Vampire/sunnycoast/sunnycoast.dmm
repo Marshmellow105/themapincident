@@ -359,6 +359,13 @@
 /obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/space)
+"awY" = (
+/obj/effect/turf_decal/bordur{
+	dir = 1
+	},
+/obj/structure/vampdoor/old,
+/turf/open/floor/plating/concrete,
+/area/space)
 "axf" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/effect/turf_decal/bordur{
@@ -1053,6 +1060,13 @@
 	pixel_y = 13
 	},
 /turf/open/floor/wood/smooth/old,
+/area/space)
+"bjr" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "sfpdgarage";
+	dir = 2
+	},
+/turf/open/floor/plating/asphalt,
 /area/space)
 "bjw" = (
 /obj/effect/turf_decal/siding/wood/dark{
@@ -5064,6 +5078,16 @@
 	},
 /turf/open/misc/dirt,
 /area/space)
+"fAk" = (
+/obj/structure/vampdoor/prison,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/access/cleaning,
+/obj/structure/vampipe{
+	icon_state = "piping32"
+	},
+/turf/open/floor/plating/canalplating,
+/area/space)
 "fAJ" = (
 /obj/effect/decal/wallpaper/red,
 /turf/closed/wall/vampwall/rich,
@@ -6293,6 +6317,13 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/outside/baywalk)
+"gWK" = (
+/obj/structure/vampdoor/prison,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/access/cleaning,
+/turf/open/floor/plating/canal,
+/area/space)
 "gYT" = (
 /obj/effect/turf_decal/asphaltline/alt{
 	dir = 8;
@@ -11257,6 +11288,16 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/space)
+"mvd" = (
+/obj/structure/vampdoor/prison,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/access/cleaning,
+/obj/structure/vampipe{
+	icon_state = "piping35"
+	},
+/turf/open/floor/plating/canalplating,
+/area/space)
 "mvp" = (
 /obj/structure/flora/rock/darkpack,
 /obj/effect/step_trigger/thrower,
@@ -12546,6 +12587,13 @@
 /obj/structure/platform/lowwall/brick/window,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/baywalk)
+"nJt" = (
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 8
+	},
+/turf/open/water/vamp_sewer,
+/area/space)
 "nJA" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 5
@@ -13398,6 +13446,16 @@
 /obj/effect/turf_decal/darkpack/dirt/corner,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/outside/pacificheights/industrial)
+"owU" = (
+/obj/structure/vampdoor/prison,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/access/cleaning,
+/obj/structure/vampipe{
+	icon_state = "piping32"
+	},
+/turf/open/floor/plating/canal,
+/area/space)
 "oxD" = (
 /obj/structure/table/countertop,
 /obj/structure/retail/gummaguts_menu{
@@ -13445,6 +13503,16 @@
 /obj/structure/mirror/directional/north,
 /turf/open/floor/city/plating,
 /area/vtm/outside/culture)
+"ozu" = (
+/obj/structure/vampipe{
+	icon_state = "piping32"
+	},
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/canalplating,
+/area/space)
 "oBa" = (
 /obj/structure/vampdoor/oldwood{
 	dir = 4
@@ -14047,6 +14115,16 @@
 	dir = 1
 	},
 /turf/open/floor/plating/stone,
+/area/space)
+"pih" = (
+/obj/structure/vampdoor/prison,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/access/cleaning,
+/obj/structure/vampipe{
+	icon_state = "piping35"
+	},
+/turf/open/floor/plating/canal,
 /area/space)
 "piy" = (
 /obj/effect/turf_decal/bordur{
@@ -15090,6 +15168,16 @@
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/city/gummaguts,
 /area/vtm/outside/baywalk)
+"qoh" = (
+/obj/effect/turf_decal/bordur/corner{
+	dir = 4
+	},
+/obj/machinery/button/door{
+	id = "sfpdgarage";
+	pixel_y = 30
+	},
+/turf/open/floor/plating/concrete,
+/area/space)
 "qoH" = (
 /obj/effect/turf_decal/asphaltline/alt{
 	dir = 8;
@@ -15744,6 +15832,16 @@
 	dir = 4
 	},
 /turf/open/floor/plating/sidewalk/poor,
+/area/space)
+"reS" = (
+/obj/structure/vampipe{
+	icon_state = "piping35"
+	},
+/obj/structure/vampfence/rich{
+	dir = 4;
+	pixel_y = 8
+	},
+/turf/open/floor/plating/canalplating,
 /area/space)
 "rfh" = (
 /obj/structure/railing{
@@ -17028,6 +17126,12 @@
 /obj/item/stack/sheet/mineral/coal/ten,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/culture)
+"sMM" = (
+/obj/structure/table/wood/billiard{
+	pixel_y = -7
+	},
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "sNs" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
@@ -25653,7 +25757,7 @@ acd
 acd
 acd
 acd
-acd
+ozu
 acd
 acd
 acd
@@ -25680,6 +25784,29 @@ acd
 acd
 acd
 acd
+ozu
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+ozu
 acd
 acd
 acd
@@ -25702,26 +25829,15 @@ acd
 acd
 acd
 acd
+ozu
 acd
 acd
 acd
 acd
 acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
+jvp
+syk
+rcb
 acd
 acd
 acd
@@ -25743,9 +25859,12 @@ acd
 acd
 acd
 acd
-jvp
-syk
-rcb
+acd
+acd
+acd
+acd
+acd
+ozu
 acd
 acd
 acd
@@ -25777,22 +25896,7 @@ acd
 acd
 acd
 acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
+ozu
 acd
 acd
 acd
@@ -25807,7 +25911,7 @@ kuC
 kuC
 kuC
 kuC
-kuC
+gWK
 kuC
 kuC
 kuC
@@ -25834,6 +25938,29 @@ kuC
 kuC
 kuC
 kuC
+gWK
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+gWK
 kuC
 kuC
 kuC
@@ -25856,25 +25983,14 @@ kuC
 kuC
 kuC
 kuC
+gWK
 kuC
 kuC
 kuC
 kuC
 kuC
 kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
+syk
 kuC
 kuC
 kuC
@@ -25898,7 +26014,11 @@ kuC
 kuC
 kuC
 kuC
-syk
+kuC
+kuC
+kuC
+kuC
+gWK
 kuC
 kuC
 kuC
@@ -25930,23 +26050,7 @@ kuC
 kuC
 kuC
 kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
+gWK
 kuC
 kuC
 kuC
@@ -25961,6 +26065,7 @@ tqM
 tqM
 tqM
 tqM
+nJt
 tqM
 tqM
 tqM
@@ -25987,6 +26092,7 @@ tqM
 tqM
 tqM
 tqM
+nJt
 tqM
 tqM
 tqM
@@ -26008,6 +26114,7 @@ tqM
 tqM
 tqM
 tqM
+nJt
 tqM
 tqM
 tqM
@@ -26030,6 +26137,7 @@ tqM
 tqM
 tqM
 tqM
+nJt
 tqM
 tqM
 tqM
@@ -26064,6 +26172,7 @@ tqM
 tqM
 tqM
 tqM
+nJt
 tqM
 tqM
 tqM
@@ -26095,12 +26204,7 @@ tqM
 tqM
 tqM
 tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
+nJt
 tqM
 tqM
 tqM
@@ -26115,6 +26219,81 @@ kuC
 kuC
 kuC
 kuC
+gWK
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+syk
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+gWK
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+syk
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+gWK
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+syk
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+kuC
+gWK
+kuC
+kuC
 kuC
 kuC
 kuC
@@ -26147,12 +26326,12 @@ kuC
 kuC
 kuC
 kuC
+gWK
 kuC
 kuC
 kuC
 kuC
 kuC
-syk
 kuC
 kuC
 kuC
@@ -26178,83 +26357,8 @@ kuC
 kuC
 kuC
 kuC
-syk
 kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-syk
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
-kuC
+gWK
 kuC
 kuC
 kuC
@@ -26269,6 +26373,81 @@ kOu
 kOu
 kOu
 kOu
+reS
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+cmS
+whS
+syk
+pcl
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+reS
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+cmS
+whS
+syk
+pcl
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+reS
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+cmS
+whS
+syk
+pcl
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+reS
+kOu
+kOu
 kOu
 kOu
 kOu
@@ -26301,13 +26480,10 @@ kOu
 kOu
 kOu
 kOu
+reS
 kOu
 kOu
 kOu
-cmS
-whS
-syk
-pcl
 kOu
 kOu
 kOu
@@ -26330,85 +26506,13 @@ kOu
 kOu
 kOu
 kOu
-cmS
-whS
-syk
-pcl
 kOu
 kOu
 kOu
 kOu
 kOu
 kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-cmS
-whS
-syk
-pcl
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
+reS
 kOu
 kOu
 kOu
@@ -32147,33 +32251,7 @@ acd
 acd
 acd
 acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-jvp
-whS
-syk
-rcb
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
-acd
+fAk
 acd
 acd
 acd
@@ -32200,6 +32278,32 @@ acd
 acd
 acd
 acd
+fAk
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+jvp
+whS
+syk
+rcb
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+acd
+fAk
 acd
 acd
 acd
@@ -32301,6 +32405,7 @@ tqM
 tqM
 tqM
 tqM
+nJt
 tqM
 tqM
 tqM
@@ -32327,6 +32432,7 @@ tqM
 tqM
 tqM
 tqM
+nJt
 tqM
 tqM
 tqM
@@ -32351,9 +32457,7 @@ tqM
 tqM
 tqM
 tqM
-tqM
-tqM
-tqM
+nJt
 tqM
 tqM
 tqM
@@ -32455,7 +32559,7 @@ kOu
 kOu
 kOu
 kOu
-kOu
+mvd
 kOu
 kOu
 kOu
@@ -32482,7 +32586,7 @@ hoj
 hoj
 hoj
 hoj
-hoj
+pih
 hoj
 hoj
 hoj
@@ -32507,7 +32611,7 @@ kOu
 kOu
 kOu
 kOu
-kOu
+mvd
 kOu
 kOu
 kOu
@@ -39236,7 +39340,7 @@ acd
 acd
 acd
 acd
-acd
+fAk
 acd
 acd
 acd
@@ -39255,7 +39359,7 @@ woL
 woL
 woL
 woL
-woL
+owU
 woL
 woL
 woL
@@ -39283,7 +39387,7 @@ acd
 acd
 acd
 acd
-acd
+fAk
 acd
 acd
 acd
@@ -39390,6 +39494,26 @@ tqM
 tqM
 tqM
 tqM
+nJt
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+tqM
+nJt
 tqM
 tqM
 tqM
@@ -39417,27 +39541,7 @@ tqM
 tqM
 tqM
 tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
-tqM
+nJt
 tqM
 tqM
 tqM
@@ -39544,6 +39648,26 @@ kOu
 kOu
 kOu
 kOu
+mvd
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+kOu
+mvd
 kOu
 kOu
 kOu
@@ -39571,27 +39695,7 @@ kOu
 kOu
 kOu
 kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
-kOu
+mvd
 kOu
 kOu
 kOu
@@ -46232,7 +46336,7 @@ wdi
 wus
 qCe
 omx
-oVa
+awY
 fce
 xcd
 cIA
@@ -46387,7 +46491,7 @@ wus
 lCJ
 gEd
 fRH
-yeP
+qoh
 xcd
 hZb
 xcd
@@ -46540,7 +46644,7 @@ wdi
 wus
 wus
 wus
-wus
+bjr
 wus
 wus
 wus
@@ -46694,7 +46798,7 @@ wdi
 wus
 wus
 wus
-wus
+bjr
 wus
 wus
 wus
@@ -46848,7 +46952,7 @@ wdi
 wus
 wus
 wus
-wus
+bjr
 ujy
 wus
 wus
@@ -69957,9 +70061,9 @@ bQd
 bQd
 bQd
 fRH
-bQd
-bQd
-bQd
+qmP
+qmP
+qmP
 jRB
 iLs
 dZh
@@ -70110,10 +70214,10 @@ bQd
 bQd
 bQd
 bQd
-bQd
-bQd
-bQd
-bQd
+fRH
+qmP
+qmP
+qmP
 jRB
 iLs
 dZh
@@ -70265,9 +70369,9 @@ bQd
 bQd
 bQd
 fRH
-bQd
-bQd
-bQd
+qmP
+qmP
+qmP
 jRB
 iLs
 dZh
@@ -70419,9 +70523,9 @@ bQd
 bQd
 bQd
 bQd
-bQd
-bQd
-bQd
+qmP
+qmP
+qmP
 jRB
 iLs
 dZh
@@ -70720,13 +70824,13 @@ ttI
 ttI
 ttI
 fRH
-fRH
-fRH
-fRH
-fRH
-fRH
-fRH
-fRH
+bQd
+bQd
+bQd
+bQd
+bQd
+bQd
+bQd
 bQd
 bQd
 bQd
@@ -70880,7 +70984,7 @@ bQd
 bQd
 bQd
 bQd
-fRH
+bQd
 bQd
 bQd
 bQd
@@ -71039,7 +71143,7 @@ bQd
 bQd
 bQd
 bQd
-bQd
+sMM
 bQd
 fRH
 ttI
@@ -71188,7 +71292,7 @@ bQd
 bQd
 bQd
 bQd
-fRH
+bQd
 bQd
 bQd
 bQd
