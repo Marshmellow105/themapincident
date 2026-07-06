@@ -336,6 +336,16 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/baywalk)
+"avY" = (
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/obj/machinery/light/small/directional/east{
+	pixel_y = 11
+	},
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "awh" = (
 /obj/effect/decal/wallpaper/stone/low{
 	pixel_y = 24
@@ -1170,6 +1180,23 @@
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt,
+/area/space)
+"bpi" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_y = 7
+	},
+/obj/item/flashlight/lamp{
+	pixel_y = 13;
+	pixel_x = 9
+	},
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth/old,
 /area/space)
 "bpn" = (
 /obj/effect/turf_decal/siding/grey/corner{
@@ -3084,6 +3111,23 @@
 	},
 /turf/open/floor/plating/rough/cave,
 /area/space)
+"dsq" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/cigpack_robust{
+	pixel_y = 5;
+	pixel_x = 7
+	},
+/obj/item/storage/ashtray{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/item/lighter,
+/obj/effect/turf_decal/siding/wood/dark/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/litter,
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "dsF" = (
 /obj/effect/turf_decal/asphaltline/alt,
 /turf/open/floor/plating/asphalt,
@@ -4605,6 +4649,17 @@
 	dir = 4
 	},
 /turf/open/floor/plating/rough,
+/area/space)
+"faA" = (
+/obj/machinery/photocopier/gratis/prebuilt,
+/obj/machinery/light/small/directional/west{
+	pixel_y = 11
+	},
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 4
+	},
+/obj/item/toner/large,
+/turf/open/floor/wood/smooth/old,
 /area/space)
 "faF" = (
 /obj/structure/table/countertop/bubway,
@@ -6217,6 +6272,17 @@
 	pixel_y = 15
 	},
 /turf/open/floor/plating/asphalt,
+/area/space)
+"gOS" = (
+/obj/structure/table/wood,
+/obj/vampire_computer/box{
+	dir = 4;
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth/old,
 /area/space)
 "gOX" = (
 /obj/effect/turf_decal/siding/grey/inner_corner{
@@ -10714,6 +10780,22 @@
 /obj/effect/mapping_helpers/mob_buckler,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
+"lKE" = (
+/obj/structure/filingcabinet/security{
+	pixel_x = 7;
+	pixel_y = 24;
+	density = 0;
+	plane = -3.9
+	},
+/obj/structure/filingcabinet/medical{
+	pixel_x = -6;
+	pixel_y = 24;
+	density = 0;
+	plane = -3.9
+	},
+/obj/effect/turf_decal/siding/wood/dark,
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "lKH" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/railing,
@@ -10971,6 +11053,7 @@
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 8
 	},
+/obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/floor/wood/smooth/old,
 /area/space)
 "mcd" = (
@@ -11543,17 +11626,18 @@
 /area/space)
 "mJW" = (
 /obj/structure/table/wood,
-/obj/item/kirbyplants/darkpack/random{
-	pixel_y = 8;
-	pixel_x = -7
-	},
-/obj/item/storage/ashtray{
-	pixel_x = 6;
-	pixel_y = 10
-	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 1
 	},
+/obj/item/storage/fancy/cigarettes/cigpack_robust{
+	pixel_y = 5;
+	pixel_x = 7
+	},
+/obj/item/storage/ashtray{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/item/lighter,
 /turf/open/floor/wood/smooth/old,
 /area/space)
 "mKa" = (
@@ -12341,6 +12425,20 @@
 "ntZ" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/carpet/green,
+/area/space)
+"nuf" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/coffee/vampire/robust{
+	pixel_y = 3;
+	pixel_x = 11
+	},
+/obj/item/storage/fancy/donut_box{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/siding/wood/dark,
+/obj/effect/decal/cleanable/litter,
+/turf/open/floor/wood/smooth/old,
 /area/space)
 "nus" = (
 /turf/open/floor/carpet/darkpack/redsilver,
@@ -13382,15 +13480,7 @@
 "orN" = (
 /obj/effect/decal/cleanable/litter,
 /obj/effect/turf_decal/siding/wood/dark,
-/obj/structure/reagent_dispensers/water_cooler{
-	pixel_y = 23;
-	density = 0;
-	pixel_x = -1
-	},
-/obj/item/kirbyplants/darkpack/random{
-	pixel_y = 15;
-	pixel_x = 9
-	},
+/obj/structure/detectiveboard/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/space)
 "osT" = (
@@ -13870,6 +13960,24 @@
 	},
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/outside/culture)
+"oUY" = (
+/obj/structure/reagent_dispensers/water_cooler{
+	pixel_y = 23;
+	density = 0;
+	pixel_x = -1
+	},
+/obj/item/kirbyplants/darkpack/plant4{
+	pixel_y = 18;
+	pixel_x = 11
+	},
+/obj/effect/turf_decal/siding/wood/dark/corner{
+	dir = 8
+	},
+/obj/machinery/camera/autoname/directional/north{
+	pixel_y = 24
+	},
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "oVa" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -15506,6 +15614,10 @@
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/culture)
+"qLv" = (
+/obj/structure/platform/lowwall/brick/window/reinforced,
+/turf/open/floor/plating/rough,
+/area/space)
 "qMu" = (
 /turf/closed/wall/vampwall/junk/alt,
 /area/space)
@@ -15514,6 +15626,10 @@
 /obj/item/binoculars,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/baywalk)
+"qMO" = (
+/obj/structure/chair/office/darkpack/green,
+/turf/open/floor/carpet/darkpack/greengold,
+/area/space)
 "qNh" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/railing/corner{
@@ -17190,6 +17306,13 @@
 "sRB" = (
 /turf/closed/wall/vampwall/old,
 /area/vtm/outside/culture)
+"sSd" = (
+/obj/structure/hedge,
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "sSG" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -18619,6 +18742,16 @@
 "ugn" = (
 /obj/structure/platform/lowwall/brick/window,
 /turf/open/floor/plating/rough,
+/area/space)
+"ugL" = (
+/obj/structure/table/wood,
+/obj/machinery/fax/fbi{
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 1
+	},
+/turf/open/floor/wood/smooth/old,
 /area/space)
 "uhV" = (
 /obj/structure/table,
@@ -20062,6 +20195,21 @@
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk/poor,
 /area/space)
+"vEX" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_y = 7
+	},
+/obj/item/flashlight/lamp{
+	pixel_y = 13;
+	pixel_x = -12
+	},
+/obj/effect/turf_decal/siding/wood/dark,
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "vFi" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 8
@@ -20124,6 +20272,21 @@
 	},
 /obj/darkpack_car/police,
 /turf/open/floor/plating/asphalt,
+/area/space)
+"vHs" = (
+/obj/structure/table/wood,
+/obj/item/kirbyplants/darkpack/plant2{
+	pixel_y = 1;
+	pixel_x = 7
+	},
+/obj/structure/detectiveboard/directional/north,
+/obj/effect/turf_decal/siding/wood/dark/corner,
+/obj/item/folder/blue{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/obj/item/folder/blue,
+/turf/open/floor/wood/smooth/old,
 /area/space)
 "vHt" = (
 /obj/machinery/vending/coffee{
@@ -21648,6 +21811,19 @@
 /obj/item/kirbyplants/darkpack/random{
 	pixel_y = 8;
 	pixel_x = -7
+	},
+/turf/open/floor/wood/smooth/old,
+/area/space)
+"xxZ" = (
+/obj/effect/turf_decal/siding/wood/dark,
+/obj/item/kirbyplants/darkpack/random{
+	pixel_y = 15;
+	pixel_x = 9
+	},
+/obj/structure/reagent_dispensers/water_cooler{
+	pixel_y = 23;
+	density = 0;
+	pixel_x = -1
 	},
 /turf/open/floor/wood/smooth/old,
 /area/space)
@@ -47731,7 +47907,7 @@ fRH
 gIq
 bQd
 fRH
-jRB
+xxZ
 brk
 iLs
 iLs
@@ -48030,7 +48206,7 @@ wdi
 wus
 ffa
 omx
-ugn
+qLv
 tKE
 iLs
 iLs
@@ -48046,11 +48222,11 @@ bPe
 mJW
 fRH
 hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+vHs
+gOS
+faA
+sSd
+xHJ
 hWB
 hWB
 hWB
@@ -48184,7 +48360,7 @@ wdi
 wus
 ffa
 omx
-ugn
+qLv
 tKE
 iLs
 iLs
@@ -48192,7 +48368,7 @@ dZh
 fZQ
 bQd
 neh
-fRH
+qLv
 rOg
 iLs
 iLs
@@ -48200,11 +48376,11 @@ brk
 cDa
 fRH
 hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+nuf
+bPe
+iLs
+brk
+cDa
 hWB
 hWB
 hWB
@@ -48338,7 +48514,7 @@ wdi
 wus
 ffa
 omx
-ugn
+qLv
 tKE
 iLs
 iLs
@@ -48346,7 +48522,7 @@ dZh
 eLI
 gcU
 bQd
-fRH
+qLv
 bDk
 iLs
 iLs
@@ -48354,11 +48530,11 @@ iLs
 but
 fRH
 hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+vEX
+iLs
+iLs
+iLs
+ugL
 hWB
 hWB
 hWB
@@ -48500,7 +48676,7 @@ dZh
 pPp
 sqT
 bQd
-fRH
+qLv
 rYp
 ePu
 brk
@@ -48508,11 +48684,11 @@ iGM
 kCH
 fRH
 hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+lKE
+iLs
+iLs
+qMO
+kCH
 hWB
 hWB
 hWB
@@ -48662,11 +48838,11 @@ yfx
 lvN
 fRH
 hWB
-hWB
-hWB
-hWB
-hWB
-hWB
+oUY
+gsJ
+avY
+bpi
+dsq
 hWB
 hWB
 hWB
@@ -48802,9 +48978,9 @@ ffa
 omx
 fRH
 fRH
-ugn
+qLv
 oIN
-ugn
+qLv
 fRH
 fRH
 fRH
