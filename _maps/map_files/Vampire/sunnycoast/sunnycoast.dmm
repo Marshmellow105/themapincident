@@ -1268,11 +1268,9 @@
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
 	},
-/obj/structure/painting/trad{
-	pixel_y = 28
-	},
 /obj/effect/decal/cleanable/litter,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/flag/china/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/space)
 "aWX" = (
@@ -2057,6 +2055,10 @@
 /obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/wood/smooth/old,
 /area/space)
+"bDP" = (
+/obj/structure/sign/city/skateshop/directional/north,
+/turf/open/floor/plating/concrete,
+/area/vtm/outside/baywalk)
 "bEg" = (
 /obj/structure/closet/secure_closet/freezer/commercial,
 /obj/effect/turf_decal/siding/grey,
@@ -2274,7 +2276,7 @@
 /obj/structure/table/wood,
 /obj/structure/vampfence/rich{
 	dir = 4;
-	pixel_y = 18;
+	pixel_y = 15;
 	name = "bars"
 	},
 /obj/machinery/recharger{
@@ -2513,6 +2515,7 @@
 /obj/structure/vampdoor/old,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/chinatown)
 "bVy" = (
@@ -3867,6 +3870,7 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/chinatown)
 "daM" = (
@@ -5149,6 +5153,10 @@
 /obj/structure/stairs/east,
 /turf/open/floor/wood/old,
 /area/space)
+"ecm" = (
+/obj/structure/retail/hot_ishu,
+/turf/open/floor/plating/concrete,
+/area/vtm/outside/baywalk)
 "edd" = (
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 4
@@ -5853,6 +5861,7 @@
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/access/npc,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/chinatown)
 "eDO" = (
@@ -5905,6 +5914,9 @@
 /obj/structure/table/wood,
 /obj/lombard/blackmarket{
 	pixel_y = 5
+	},
+/obj/structure/vampfence/rich{
+	pixel_y = 15
 	},
 /turf/open/floor/plating/rough,
 /area/space)
@@ -6948,6 +6960,7 @@
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/city/bacotell,
 /area/space)
 "fsN" = (
@@ -9925,6 +9938,7 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/chinatown)
 "hMq" = (
@@ -10514,6 +10528,7 @@
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
 /area/space)
 "ipA" = (
@@ -12099,6 +12114,7 @@
 	},
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
+/obj/effect/mapping_helpers/door/bash_difficulty/six,
 /turf/open/floor/wood/smooth/old,
 /area/space)
 "juz" = (
@@ -15274,6 +15290,10 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/smooth/old,
 /area/space)
+"lPa" = (
+/obj/structure/sign/city/skateshop/four/directional/north,
+/turf/open/floor/plating/concrete,
+/area/vtm/outside/baywalk)
 "lPd" = (
 /obj/effect/spawner/random/trash/rat,
 /turf/open/floor/plating/sidewalkalt,
@@ -15334,6 +15354,7 @@
 /obj/structure/vampdoor/wood{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
 /area/space)
 "lRE" = (
@@ -15439,6 +15460,10 @@
 /obj/effect/mapping_helpers/door/access/primogen_malkavian,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/clinic/haven)
+"lWZ" = (
+/obj/structure/sign/city/skateshop/three/directional/north,
+/turf/open/floor/plating/concrete,
+/area/vtm/outside/baywalk)
 "lXN" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /obj/structure/railing{
@@ -21266,6 +21291,7 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/chinatown)
 "pSk" = (
@@ -21497,6 +21523,19 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/cabdepot)
+"qbs" = (
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/obj/structure/vampdoor/old{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/access/npc,
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/bash_difficulty/six,
+/obj/effect/mapping_helpers/door/lock_difficulty/six,
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "qbw" = (
 /obj/structure/vampipe{
 	icon_state = "piping43"
@@ -22284,9 +22323,6 @@
 "qLv" = (
 /obj/structure/platform/lowwall/brick/window/reinforced,
 /turf/open/floor/plating/rough,
-/area/space)
-"qMu" = (
-/turf/closed/wall/vampwall/junk/alt,
 /area/space)
 "qMJ" = (
 /obj/structure/table/countertop/red,
@@ -23492,7 +23528,9 @@
 /obj/structure/retail/black_market{
 	dir = 4
 	},
-/obj/structure/sign/flag/china/directional/north,
+/obj/structure/vampfence/rich{
+	pixel_y = 15
+	},
 /turf/open/floor/plating/rough,
 /area/space)
 "rJS" = (
@@ -24251,6 +24289,10 @@
 /obj/structure/tire,
 /turf/open/floor/plating/sidewalkalt,
 /area/space)
+"snf" = (
+/obj/structure/sign/city/skateshop/two/directional/north,
+/turf/open/floor/plating/concrete,
+/area/vtm/outside/baywalk)
 "snj" = (
 /obj/structure/flora/rock/pile/darkpack,
 /turf/open/floor/plating/rough/cave,
@@ -24474,7 +24516,7 @@
 /obj/structure/table/wood,
 /obj/structure/vampfence/rich{
 	dir = 4;
-	pixel_y = 18;
+	pixel_y = 15;
 	name = "bars"
 	},
 /obj/effect/decal/wallpaper/stone/low,
@@ -26255,12 +26297,6 @@
 	},
 /turf/open/floor/wood/rough,
 /area/space)
-"tKZ" = (
-/obj/effect/turf_decal/bordur{
-	dir = 5
-	},
-/turf/open/floor/plating/concrete,
-/area/vtm/outside/baywalk)
 "tLc" = (
 /obj/structure/platform/lowwall/rich/old,
 /obj/item/vampire_stake,
@@ -26358,6 +26394,7 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/chinatown)
 "tON" = (
@@ -26377,6 +26414,7 @@
 /obj/effect/mapping_helpers/door/unlock,
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/effect/mapping_helpers/door/autoname,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/chinatown)
 "tOT" = (
@@ -28293,15 +28331,6 @@
 /obj/effect/spawner/random/entertainment/arcade,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/outside/culture)
-"vdL" = (
-/obj/effect/turf_decal/siding/beige{
-	dir = 1
-	},
-/obj/structure/vampdoor/wood,
-/obj/effect/mapping_helpers/door/unlock,
-/obj/effect/mapping_helpers/door/lock_difficulty/four,
-/turf/open/floor/city/industrial,
-/area/space)
 "veh" = (
 /obj/effect/turf_decal/siding/wideplating/green,
 /obj/effect/turf_decal/siding/wideplating/orange/corner,
@@ -30725,6 +30754,15 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/space)
+"xaV" = (
+/obj/structure/vampdoor/wood{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/unlock,
+/obj/effect/mapping_helpers/door/lock_difficulty/four,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
+/turf/open/floor/wood/smooth/old,
+/area/space)
 "xbk" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -30818,6 +30856,7 @@
 /obj/effect/turf_decal/siding/beige{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/city/circled/large,
 /area/vtm/outside/chinatown)
 "xdv" = (
@@ -31775,6 +31814,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/four,
 /obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/access/claimable,
+/obj/effect/mapping_helpers/door/bash_difficulty/five,
 /turf/open/floor/wood/smooth/old,
 /area/space)
 "xPF" = (
@@ -33982,7 +34022,7 @@ qCe
 qCe
 qCe
 qCe
-tpW
+qCe
 tpW
 tpW
 tpW
@@ -34134,9 +34174,9 @@ qCe
 qhG
 kkx
 qWd
+kkx
 wVX
 qCe
-tpW
 tpW
 tpW
 tpW
@@ -34288,9 +34328,9 @@ qCe
 hDo
 rre
 kkx
+kkx
 qWd
 qCe
-tpW
 tpW
 tpW
 tpW
@@ -34442,9 +34482,9 @@ qCe
 qCe
 rJP
 eFI
-gsJ
 qCe
-tpW
+qbs
+qCe
 tpW
 tpW
 tpW
@@ -34597,8 +34637,8 @@ pyS
 wRc
 jSW
 nNL
+nNL
 qCe
-tpW
 tpW
 tpW
 tpW
@@ -34751,8 +34791,8 @@ uHH
 nNL
 gzt
 bQd
+bQd
 qCe
-tpW
 tpW
 tpW
 tpW
@@ -34905,8 +34945,8 @@ aWV
 uvj
 wYu
 ila
+ila
 qCe
-tpW
 tpW
 tpW
 tpW
@@ -35060,7 +35100,7 @@ teF
 jqY
 ydX
 qCe
-tpW
+qCe
 tpW
 tpW
 tpW
@@ -68344,7 +68384,7 @@ nUT
 laT
 ccZ
 iox
-ahh
+bDP
 ahh
 ahh
 ahh
@@ -68498,7 +68538,7 @@ nUT
 laT
 ccZ
 iox
-ahh
+snf
 ahh
 ahh
 ahh
@@ -68652,7 +68692,7 @@ glD
 rNL
 kux
 iox
-ahh
+lWZ
 ahh
 ahh
 ahh
@@ -68806,7 +68846,7 @@ fFD
 fFD
 nCn
 iox
-ahh
+lPa
 ahh
 ahh
 ahh
@@ -68960,7 +69000,7 @@ fzP
 ltz
 hZo
 iox
-ahh
+ecm
 ahh
 ahh
 ahh
@@ -70643,13 +70683,13 @@ wus
 eTg
 hZo
 gcs
-jrW
-jrW
-jrW
-jrW
-jrW
-jrW
-jrW
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
 aSD
 tfX
 hZo
@@ -70796,14 +70836,14 @@ wdi
 wus
 eTg
 hZo
-rJE
-jrW
-ahh
-ahh
-ahh
-ahh
-ahh
-jrW
+qwx
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
 eTg
 ltz
 hZo
@@ -70950,14 +70990,14 @@ wdi
 wus
 eTg
 hZo
-qwx
-jrW
-pVK
-ahh
-ahh
-ahh
-ahh
-jrW
+xtT
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
 eTg
 foO
 noa
@@ -71104,14 +71144,14 @@ wdi
 wus
 eTg
 hZo
-rJE
-jrW
-jrW
-lEz
-lEz
-tKZ
-ahh
-jrW
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
+jQf
 eTg
 hZo
 hUS
@@ -71258,14 +71298,14 @@ wdi
 wus
 eTg
 hZo
-rJE
-jrW
 jQf
 jQf
 jQf
-jWI
-ahh
-jrW
+jQf
+jQf
+jQf
+jQf
+jQf
 eTg
 hZo
 lgu
@@ -71412,14 +71452,14 @@ wdi
 wus
 eTg
 hZo
-qwx
-jrW
+gcs
 jQf
 jQf
 jQf
-jWI
-ahh
-jrW
+jQf
+jQf
+jQf
+jQf
 eTg
 hZo
 lgu
@@ -71566,14 +71606,14 @@ wdi
 wus
 eTg
 hZo
-rJE
-jrW
+qwx
 jQf
 jQf
 jQf
-jWI
-ahh
-jrW
+jQf
+jQf
+jQf
+jQf
 eTg
 hZo
 lgu
@@ -71721,13 +71761,13 @@ tcH
 oEZ
 jUb
 xtT
-jrW
 jQf
 jQf
 jQf
-jrW
-lEz
-jrW
+jQf
+jQf
+jQf
+jQf
 oEZ
 jUb
 lgu
@@ -81718,7 +81758,7 @@ ttI
 qCe
 qCe
 ruN
-hqF
+xaV
 ruN
 dlq
 iMC
@@ -82027,7 +82067,7 @@ ruN
 kLU
 bQd
 bQd
-vdL
+uRq
 lgL
 ejX
 cvy
@@ -94052,13 +94092,13 @@ ttI
 ttI
 ttI
 ttI
-qMu
-qMu
-qMu
-qMu
-qMu
-qMu
-qMu
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 ttI
@@ -94206,13 +94246,13 @@ ttI
 ttI
 ttI
 ttI
-qMu
 ttI
-fBo
-fBo
-fBo
-fBo
-qMu
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 ttI
@@ -94360,13 +94400,13 @@ ttI
 ttI
 ttI
 ttI
-qMu
 ttI
-fBo
-fBo
-fBo
-fBo
-qMu
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 ttI
@@ -94514,13 +94554,13 @@ ttI
 ttI
 ttI
 ttI
-qMu
-fBo
-fBo
-fBo
-fBo
-fBo
-qMu
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 cYw
@@ -94668,13 +94708,13 @@ ttI
 ttI
 ttI
 ttI
-qMu
-fBo
-fBo
-hEv
-fBo
-fBo
-qMu
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 cYw
@@ -94822,13 +94862,13 @@ ttI
 ttI
 ttI
 ttI
-qMu
-fBo
-fBo
-fBo
-fBo
-fBo
-qMu
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 cYw
@@ -94976,13 +95016,13 @@ ttI
 ttI
 ttI
 ttI
-qMu
-fBo
-fBo
-fBo
-fBo
-fBo
-qMu
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 cYw
@@ -95130,13 +95170,13 @@ ttI
 ttI
 ttI
 ttI
-qMu
-qMu
-qMu
-qMu
-qMu
-qMu
-qMu
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 cYw
@@ -117461,13 +117501,13 @@ ttI
 ttI
 ttI
 ttI
-mrn
-xHc
-xHc
-xHc
-xHc
-xHc
-nAe
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 ttI
@@ -117615,13 +117655,13 @@ ttI
 ttI
 ttI
 ttI
-tCD
-tZI
-tZI
-tZI
-tZI
-tZI
-jFK
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 ttI
@@ -117769,13 +117809,13 @@ ttI
 ttI
 ttI
 ttI
-tCD
-tZI
-tZI
-tZI
-tZI
-tZI
-jFK
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 ttI
@@ -117923,13 +117963,13 @@ ttI
 ttI
 ttI
 ttI
-tCD
-tZI
-tZI
-tZI
-tZI
-tZI
-jFK
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 mrn
@@ -118077,13 +118117,13 @@ ttI
 ttI
 ttI
 ttI
-tCD
-tZI
-tZI
-tZI
-tZI
-tZI
-jFK
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 tCD
@@ -118231,13 +118271,13 @@ ttI
 ttI
 ttI
 ttI
-tCD
-tZI
-tZI
-tZI
-tZI
-tZI
-jFK
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 tCD
@@ -118385,13 +118425,13 @@ ttI
 ttI
 ttI
 ttI
-tCD
-tZI
-tZI
-tZI
-tZI
-tZI
-jFK
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 tCD
@@ -118539,13 +118579,13 @@ ttI
 ttI
 ttI
 ttI
-sBh
-vQs
-vQs
-vQs
-vQs
-vQs
-klD
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
+ttI
 ttI
 ttI
 sBh
